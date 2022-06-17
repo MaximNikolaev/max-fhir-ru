@@ -1,0 +1,26 @@
+﻿MaxFhirRu : Validation Results
+=========================================
+
+err = 0, warn = 5, info = 0
+IG Publisher Version: 1.1.121
+Generated Fri Jun 17 16:49:37 MSK 2022. FHIR version 4.0.1 for hl7.fhir.uv.max-fhir-ru#0.2.0 (canonical = https://maximnikolaev.github.io/max-fhir-ru)
+ Build Errors : 0 / 0 / 0
+ D:\github\max-fhir-ru-dev\input\ig : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\Encounter.StructureDefinition : 0 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\Observation.StructureDefinition : 0 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\Organization.StructureDefinition : 0 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\Patient.StructureDefinition : 0 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\Practitioner.StructureDefinition : 0 / 1 / 1
+</table>
+== n/a ==
+== input\ig.xml ==
+== input\resources\Encounter.StructureDefinition.xml ==
+WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Encounter'): The Implementation Guide contains no examples for this profile
+== input\resources\Observation.StructureDefinition.xml ==
+WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Observation'): The Implementation Guide contains no examples for this profile
+== input\resources\Organization.StructureDefinition.xml ==
+WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Organization'): The Implementation Guide contains no examples for this profile
+== input\resources\Patient.StructureDefinition.xml ==
+WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Patient'): The Implementation Guide contains no examples for this profile
+== input\resources\Practitioner.StructureDefinition.xml ==
+WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Practitioner'): The Implementation Guide contains no examples for this profile
