@@ -7,31 +7,31 @@
   "profiles": {
     "Encounter": [
       {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Encounter",
+        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter",
         "title": "Случай обслуживания"
       }
     ],
     "Observation": [
       {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Observation",
+        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation",
         "title": "Результат наблюдения"
       }
     ],
     "Organization": [
       {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Organization",
+        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization",
         "title": "Организация"
       }
     ],
     "Patient": [
       {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Patient",
+        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient",
         "title": "Пациент"
       }
     ],
     "Practitioner": [
       {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Practitioner",
+        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner",
         "title": "Врач"
       }
     ]

@@ -9,35 +9,35 @@
   {
     "id": "Encounter",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Encounter",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter",
     "version": "0.2.0",
     "name": "Encounter"
   },
   {
     "id": "Observation",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Observation",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation",
     "version": "0.2.0",
     "name": "Observation"
   },
   {
     "id": "Organization",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Organization",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization",
     "version": "0.2.0",
     "name": "Organization"
   },
   {
     "id": "Patient",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Patient",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient",
     "version": "0.2.0",
     "name": "Patient"
   },
   {
     "id": "Practitioner",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Practitioner",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner",
     "version": "0.2.0",
     "name": "Practitioner"
   }
