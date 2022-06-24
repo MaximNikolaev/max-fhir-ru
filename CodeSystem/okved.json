@@ -1,0 +1,104 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "okved",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved defines some example codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"okved-86\"> </a></td><td>Деятельность в области здравоохранения</td></tr><tr><td style=\"white-space:nowrap\">86.1<a name=\"okved-86.461\"> </a></td><td>Деятельность больничных организаций</td></tr><tr><td style=\"white-space:nowrap\">86.10<a name=\"okved-86.4610\"> </a></td><td>Деятельность больничных организаций</td></tr><tr><td style=\"white-space:nowrap\">86.2<a name=\"okved-86.462\"> </a></td><td>Медицинская и стоматологическая практика</td></tr><tr><td style=\"white-space:nowrap\">86.21<a name=\"okved-86.4621\"> </a></td><td>Общая врачебная практика</td></tr><tr><td style=\"white-space:nowrap\">86.22<a name=\"okved-86.4622\"> </a></td><td>Специальная врачебная практика</td></tr><tr><td style=\"white-space:nowrap\">86.22.1<a name=\"okved-86.4622.461\"> </a></td><td>Деятельность в области косметологии</td></tr><tr><td style=\"white-space:nowrap\">86.22.9<a name=\"okved-86.4622.469\"> </a></td><td>Специальная врачебная практика прочая</td></tr><tr><td style=\"white-space:nowrap\">86.23<a name=\"okved-86.4623\"> </a></td><td>Стоматологическая практика</td></tr><tr><td style=\"white-space:nowrap\">86.9<a name=\"okved-86.469\"> </a></td><td>Деятельность в области медицины прочая</td></tr><tr><td style=\"white-space:nowrap\">86.90<a name=\"okved-86.4690\"> </a></td><td>Деятельность в области медицины прочая</td></tr><tr><td style=\"white-space:nowrap\">86.90.1<a name=\"okved-86.4690.461\"> </a></td><td>Деятельность организаций санитарно-эпидемиологической службы</td></tr><tr><td style=\"white-space:nowrap\">86.90.2<a name=\"okved-86.4690.462\"> </a></td><td>Деятельность организаций судебно-медицинской экспертизы</td></tr><tr><td style=\"white-space:nowrap\">86.90.3<a name=\"okved-86.4690.463\"> </a></td><td>Деятельность массажных салонов</td></tr><tr><td style=\"white-space:nowrap\">86.90.4<a name=\"okved-86.4690.464\"> </a></td><td>Деятельность санаторно-курортных организаций</td></tr><tr><td style=\"white-space:nowrap\">86.90.9<a name=\"okved-86.4690.469\"> </a></td><td>Деятельность в области медицины прочая, не включенная в другие группировки</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved",
+  "version": "0.2.0",
+  "name": "Okved",
+  "title": "Классификатор ОКВЭД",
+  "status": "draft",
+  "date": "2022-06-24T23:01:51+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Общероссийский классификатор видов экономической деятельности",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "example",
+  "concept": [
+    {
+      "code": "86",
+      "definition": "Деятельность в области здравоохранения"
+    },
+    {
+      "code": "86.1",
+      "definition": "Деятельность больничных организаций"
+    },
+    {
+      "code": "86.10",
+      "definition": "Деятельность больничных организаций"
+    },
+    {
+      "code": "86.2",
+      "definition": "Медицинская и стоматологическая практика"
+    },
+    {
+      "code": "86.21",
+      "definition": "Общая врачебная практика"
+    },
+    {
+      "code": "86.22",
+      "definition": "Специальная врачебная практика"
+    },
+    {
+      "code": "86.22.1",
+      "definition": "Деятельность в области косметологии"
+    },
+    {
+      "code": "86.22.9",
+      "definition": "Специальная врачебная практика прочая"
+    },
+    {
+      "code": "86.23",
+      "definition": "Стоматологическая практика"
+    },
+    {
+      "code": "86.9",
+      "definition": "Деятельность в области медицины прочая"
+    },
+    {
+      "code": "86.90",
+      "definition": "Деятельность в области медицины прочая"
+    },
+    {
+      "code": "86.90.1",
+      "definition": "Деятельность организаций санитарно-эпидемиологической службы"
+    },
+    {
+      "code": "86.90.2",
+      "definition": "Деятельность организаций судебно-медицинской экспертизы"
+    },
+    {
+      "code": "86.90.3",
+      "definition": "Деятельность массажных салонов"
+    },
+    {
+      "code": "86.90.4",
+      "definition": "Деятельность санаторно-курортных организаций"
+    },
+    {
+      "code": "86.90.9",
+      "definition": "Деятельность в области медицины прочая, не включенная в другие группировки"
+    }
+  ]
+}
