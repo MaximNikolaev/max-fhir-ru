@@ -15,7 +15,7 @@
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-     fhir:Extension.valueCode [ fhir:value "informative" ]
+     fhir:Extension.valueCode [ fhir:value "draft" ]
   ], [
      fhir:index 1;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
@@ -27,7 +27,7 @@
   fhir:ImplementationGuide.title [ fhir:value "unofficial FHIR ru-core implementation guide for Russian Federation"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-06-17T17:13:24+03:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Maxim Nikolaev"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -333,66 +333,355 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+         fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Encounter>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Encounter" ]
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/Organization/example-ru-core-organization-mednet>;
+         fhir:Reference.reference [ fhir:value "Organization/example-ru-core-organization-mednet" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Случай обслуживания" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Organization - example-ru-core-organization-mednet" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization";
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization>
+       ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Observation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Observation" ]
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindFrmo>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/activityKindFrmo" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Результат наблюдения" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Профиль описывает измерения и простые утверждения о пациенте" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Вид деятельности организации (ФРМО)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности" ]
      ], [
        fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Organization>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Organization" ]
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindRzn>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/activityKindRzn" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Организация" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Вид деятельности организации (РЗН)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник видов деятельности по классификации Росздравнадзора" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Patient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Patient" ]
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/activityType" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пациент" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Профиль пациента описывает человека, получающего медицинскую помощь" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Тип деятельности организации" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Классификатор типов деятельности организации" ]
      ], [
        fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/businessEntityIndividual" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Юридическое / физическое лицо" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Юридическое или физическое лицо (используется для организаций)" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/okato" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Классификатор ОКАТО" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Общероссийский классификатор объектов административно-территориального деления" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/okfs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Классификатор ОКФС" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Общероссийский классификатор форм собственности" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/okogu" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Классификатор ОКОГУ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Общероссийский классификатор органов государственной власти и управления" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/okopf" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Классификатор ОКОПФ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Общероссийский классификатор организационно-правовых форм" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/oktmo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Классификатор ОКТМО" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Общероссийский классификатор территорий муниципальных образований" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/okved" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Классификатор ОКВЭД" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Общероссийский классификатор видов экономической деятельности" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityKindFrmo>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-activityKindFrmo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Вид деятельности (ФРМО)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityKindRzn>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-activityKindRzn" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Вид деятельности (РЗН)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник видов деятельности по классификации Росздравнадзора" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityType>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-activityType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Тип деятельности" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Классификация организаций по типам деятельности" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-businessEntityIndividual" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Юридическое / физическое лицо" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Юридическое / физическое лицо" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-fssRegistration" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Данные о регистрации в ФСС" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Данные о регистрации в ФСС Фонде Социального Страхования Российской Федерации (рег. номер в ПФР и наименование органа ФСС)" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okato>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-okato" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ОКАТО" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ОКАТО Общероссийский классификатор объектов административно-территориального деления" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okfs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-okfs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ОКФС" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ОКФС Общероссийский классификатор форм собственности" ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okogu>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-okogu" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ОКОГУ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ОКОГУ Общероссийский классификатор органов государственной власти и управления" ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okopf>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-okopf" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ОКОПФ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ОКОПФ Общероссийский классификатор организационно-правовых форм" ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okpo>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-okpo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ОКПО" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Код по ОКПО Общероссийский классификатор предприятий и организаций" ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-oktmo>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-oktmo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ОКТМО" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ОКТМО Общероссийский классификатор территорий муниципальных образований" ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okved>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-okved" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ОКВЭД" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ОКВЭД Общероссийский классификатор видов экономической деятельности" ]
+     ], [
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Practitioner>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Practitioner" ]
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-organization" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Врач" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Профиль Врач предназначен для описания врачей, медицинских работников, специалистов." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Организация (профиль)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Определяет базовый профиль Организация" ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-pfrRegistration" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Данные о регистрации в ПФР" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Данные о регистрации в ПФР Пенсионном Фонде Российской Федерации (рег. номер в ПФР и наименование органа ПФР)" ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ru-core-stateRegistration" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Свидетельство о гос. регистрации" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Данные о государственной регистрации юридического лица / ИП (номер и дата свидетельства)" ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividualVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/ru-core-businessEntityIndividualVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Юридическое или физическое лицо" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Определяет, является ли ресурс юридическим или физическом лицом" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

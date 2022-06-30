@@ -1,0 +1,64 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "businessEntityIndividual",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">businessEntity<a name=\"businessEntityIndividual-businessEntity\"> </a></td><td>Юридическое лицо</td><td>Юридическое лицо</td></tr><tr><td style=\"white-space:nowrap\">individual<a name=\"businessEntityIndividual-individual\"> </a></td><td>Физическое лицо</td><td>Физическое лицо</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Русский (Russian, ru)</b></td></tr><tr><td>businessEntity</td><td>Юридическое лицо</td></tr><tr><td>individual</td><td>Физическое лицо</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual",
+  "version": "0.2.0",
+  "name": "BusinessEntityIndividual",
+  "title": "Юридическое / физическое лицо",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Юридическое или физическое лицо (используется для организаций)",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "valueSet": "https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividual",
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "businessEntity",
+      "display": "Юридическое лицо",
+      "definition": "Юридическое лицо",
+      "designation": [
+        {
+          "language": "ru",
+          "value": "Юридическое лицо"
+        }
+      ]
+    },
+    {
+      "code": "individual",
+      "display": "Физическое лицо",
+      "definition": "Физическое лицо",
+      "designation": [
+        {
+          "language": "ru",
+          "value": "Физическое лицо"
+        }
+      ]
+    }
+  ]
+}

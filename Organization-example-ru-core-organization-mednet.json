@@ -1,0 +1,125 @@
+{
+  "resourceType": "Organization",
+  "id": "example-ru-core-organization-mednet",
+  "meta": {
+    "profile": [
+      "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-ru-core-organization-mednet\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ru-core-organization.html\">Организация (профиль)</a></p></div><p><b>Юридическое / физическое лицо</b>: businessEntity</p><p><b>ОКАТО</b>: Бутырский (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato code 45 280 561 = 'Бутырский', stated as 'Бутырский')</p><p><b>ОКТМО</b>: муниципальный округ Бутырский (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo code 45 353 000 = 'муниципальный округ Бутырский', stated as 'муниципальный округ Бутырский')</p><p><b>ОКВЭД</b>: Научные исследования и разработки в области естественных и технических наук прочие (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved code 72.19 = 'Научные исследования и разработки в области естественных и технических наук прочие', stated as 'Научные исследования и разработки в области естественных и технических наук прочие')</p><p><b>ОКФС</b>: Федеральная собственность (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs code 12 = 'Федеральная собственность', stated as 'Федеральная собственность')</p><p><b>ОКОПФ</b>: Федеральные государственные бюджетные учреждения (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf code 7 51 03 = 'Федеральные государственные бюджетные учреждения', stated as 'Федеральные государственные бюджетные учреждения')</p><p><b>ОКОГУ</b>: Министерство здравоохранения Российской Федерации (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu code 1320700 = 'Министерство здравоохранения Российской Федерации', stated as 'Министерство здравоохранения Российской Федерации')</p><p><b>ОКПО</b>: 18987596</p><blockquote><p><b>Свидетельство о гос. регистрации</b></p><p><b>value</b>: 00 000000000</p><p><b>value</b>: 2002-09-30</p></blockquote><blockquote><p><b>Данные о регистрации в ПФР</b></p><p><b>value</b>: 087310042923</p><p><b>value</b>: Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы</p></blockquote><blockquote><p><b>Данные о регистрации в ФСС</b></p><p><b>value</b>: 770900509177031</p><p><b>value</b>: Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации</p></blockquote><p><b>identifier</b>: id: 7715217798, id: 1027739277235</p><p><b>active</b>: true</p><p><b>name</b>: ФГБУ ЦНИИОИЗ Минздрава России</p><p><b>alias</b>: Федеральное государственное бюджетное учреждение \"Центральный научно-исследовательский институт                  организации и информатизации здравоохранения\" Министерства здравоохранения Российской Федерации</p></div>"
+  },
+  "extension": [
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual",
+      "valueCode": "businessEntity"
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okato",
+      "valueCoding": {
+        "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato",
+        "code": "45 280 561",
+        "display": "Бутырский"
+      }
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-oktmo",
+      "valueCoding": {
+        "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo",
+        "code": "45 353 000",
+        "display": "муниципальный округ Бутырский"
+      }
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okved",
+      "valueCoding": {
+        "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved",
+        "code": "72.19",
+        "display": "Научные исследования и разработки в области естественных и технических наук прочие"
+      }
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okfs",
+      "valueCoding": {
+        "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs",
+        "code": "12",
+        "display": "Федеральная собственность"
+      }
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okopf",
+      "valueCoding": {
+        "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf",
+        "code": "7 51 03",
+        "display": "Федеральные государственные бюджетные учреждения"
+      }
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okogu",
+      "valueCoding": {
+        "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu",
+        "code": "1320700",
+        "display": "Министерство здравоохранения Российской Федерации"
+      }
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okpo",
+      "valueCode": "18987596"
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration",
+      "extension": [
+        {
+          "url": "regNumber",
+          "valueString": "00 000000000"
+        },
+        {
+          "url": "regDate",
+          "valueDate": "2002-09-30"
+        }
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration",
+      "extension": [
+        {
+          "url": "regNumber",
+          "valueString": "087310042923"
+        },
+        {
+          "url": "regName",
+          "valueString": "Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы"
+        }
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration",
+      "extension": [
+        {
+          "url": "regNumber",
+          "valueString": "770900509177031"
+        },
+        {
+          "url": "regName",
+          "valueString": "Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/inn",
+      "value": "7715217798"
+    },
+    {
+      "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/orgn",
+      "value": "1027739277235"
+    }
+  ],
+  "active": true,
+  "name": "ФГБУ ЦНИИОИЗ Минздрава России",
+  "alias": [
+    "Федеральное государственное бюджетное учреждение \"Центральный научно-исследовательский институт                  организации и информатизации здравоохранения\" Министерства здравоохранения Российской Федерации"
+  ]
+}

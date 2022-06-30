@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="activityKindFrmo"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindFrmo defines some example codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="activityKindFrmo-1"> </a></td><td>Больница (в том числе детская)</td></tr><tr><td style="white-space:nowrap">2<a name="activityKindFrmo-2"> </a></td><td>Больница скорой медицинской помощи</td></tr></table></div>
+  </text>
+  <url value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindFrmo"/>
+  <version value="0.2.0"/>
+  <name value="ActivityKindFrmo"/>
+  <title value="Вид деятельности организации (ФРМО)"/>
+  <status value="draft"/>
+  <date value="2022-06-30T12:52:13+03:00"/>
+  <publisher value="Maxim Nikolaev"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/MaximNikolaev"/>
+    </telecom>
+  </contact>
+  <description value="ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="example"/>
+  <concept>
+    <code value="1"/>
+    <definition value="Больница (в том числе детская)"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <definition value="Больница скорой медицинской помощи"/>
+  </concept>
+</CodeSystem>

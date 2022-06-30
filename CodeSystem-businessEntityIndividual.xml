@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="businessEntityIndividual"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">businessEntity<a name="businessEntityIndividual-businessEntity"> </a></td><td>Юридическое лицо</td><td>Юридическое лицо</td></tr><tr><td style="white-space:nowrap">individual<a name="businessEntityIndividual-individual"> </a></td><td>Физическое лицо</td><td>Физическое лицо</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Русский (Russian, ru)</b></td></tr><tr><td>businessEntity</td><td>Юридическое лицо</td></tr><tr><td>individual</td><td>Физическое лицо</td></tr></table></div>
+  </text>
+  <url value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual"/>
+  <version value="0.2.0"/>
+  <name value="BusinessEntityIndividual"/>
+  <title value="Юридическое / физическое лицо"/>
+  <status value="draft"/>
+  <date value="2022-06-30T12:52:13+03:00"/>
+  <publisher value="Maxim Nikolaev"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/MaximNikolaev"/>
+    </telecom>
+  </contact>
+  <description value="Юридическое или физическое лицо (используется для организаций)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <valueSet value="https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividual"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="businessEntity"/>
+    <display value="Юридическое лицо"/>
+    <definition value="Юридическое лицо"/>
+    <designation>
+      <language value="ru"/>
+      <value value="Юридическое лицо"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="individual"/>
+    <display value="Физическое лицо"/>
+    <definition value="Физическое лицо"/>
+    <designation>
+      <language value="ru"/>
+      <value value="Физическое лицо"/>
+    </designation>
+  </concept>
+</CodeSystem>

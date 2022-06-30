@@ -163,18 +163,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h1 id="что-и-зачем">Что и зачем</h1>
+<h1 id="что-здесь">Что здесь</h1>
 
 <p>Собственная реализация FHIR Implementation Guide для России, написанная на энтузиазме по данным
-сайта <a href="http://fhir-ru.zendoc.me/">fhir.ru</a></p>
-
-<p>Одна из основных задач - генерировать полный набор файлов спецификации FHIR IG с выполнением валидации xml/json
-файлов</p>
-
-<p>Элементы спецификации не создаются с нуля, а всегда наследуются от базовых
-ресурсов <a href="http://hl7.org/fhir/">http://hl7.org/fhir/</a> через тег <code class="language-plaintext highlighter-rouge">baseDefinition</code></p>
-
-<p>При сборке отслеживаеся качество на странице <a href="https://maximnikolaev.github.io/max-fhir-ru/qa.html">qa.html</a></p>
+проекта <a href="http://fhir-ru.zendoc.me/">fhir.ru</a></p>
 
 <p><a href="https://maximnikolaev.github.io/max-fhir-ru/">GitHub Pages</a></p>
 
@@ -185,7 +177,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li>На данный момент конечный результат (этот проект) собирается вручную, без CI-инструментов</li>
   <li>Собран на базе репозитория <code class="language-plaintext highlighter-rouge">FHIR/sample-ig:master</code></li>
-  <li>Использует шаблон версии <code class="language-plaintext highlighter-rouge">0.2.2</code> из http://fhir.org/templates/fhir.base.template/history.html</li>
+  <li>Использует шаблон версии <code class="language-plaintext highlighter-rouge">0.2.2</code> из <a href="">http://fhir.org/templates/fhir.base.template/history.html</a></li>
   <li>В репозиторий вручную выкладывается содержимое папки <code class="language-plaintext highlighter-rouge">/output</code> после
 работы <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">IG Publisher</a>-а</li>
   <li>При каждой сборке проект полностью перезаписывается</li>
@@ -197,10 +189,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Для переводов наименований и описаний на русский язык не использовать тег <code class="language-plaintext highlighter-rouge">differential</code>, а применять механизм
 тега <code class="language-plaintext highlighter-rouge">language</code></li>
   <li>Заменить <code class="language-plaintext highlighter-rouge">uv</code> на <code class="language-plaintext highlighter-rouge">ru</code> в идентификаторе проекта <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.max-fhir-ru</code></li>
-  <li>Заменить <code class="language-plaintext highlighter-rouge">constraint</code> на <code class="language-plaintext highlighter-rouge">specialization</code> в тегах <code class="language-plaintext highlighter-rouge">derivation</code>
-(сейчас при указании specialization при сборке формируются пустые файлы схематронов sch)</li>
+  <li>убрать rim-mapping для extension-ов</li>
+  <li>для всех реквизитов, которые могут изменяться со времением, сделать структуры для хранения историй?</li>
 </ul>
-
 
 
 
@@ -248,7 +239,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/MaximNikolaev">Maxim Nikolaev</a>.  Package hl7.fhir.uv.max-fhir-ru#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 17, 2022 17:13+0300">2022-06-17</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/MaximNikolaev">Maxim Nikolaev</a>.  Package hl7.fhir.uv.max-fhir-ru#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 30, 2022 12:52+0300">2022-06-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

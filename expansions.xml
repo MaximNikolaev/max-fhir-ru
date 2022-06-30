@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f50f4433-1ed0-4b4a-a86d-18bde388d7c4"/>
+  <id value="88e9ab12-5525-4785-b3ca-399e960d6f88"/>
   <meta>
-    <lastUpdated value="2022-06-17T17:13:24.580+03:00"/>
+    <lastUpdated value="2022-06-30T12:52:13.163+03:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividualVS"/>
+    <resource>
+      <ValueSet>
+        <id value="ru-core-businessEntityIndividualVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-businessEntityIndividual.html">Юридическое / физическое лицо v0.2.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-businessEntityIndividual.html">
+                <code>https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---maximnikolaev.github.io-max-fhir-ru-CodeSystem-businessEntityIndividual-businessEntity"> </a>  
+                  <a href="CodeSystem-businessEntityIndividual.html#businessEntityIndividual-businessEntity">businessEntity</a>
+                </td>
+                <td>Юридическое лицо</td>
+                <td>Юридическое лицо</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---maximnikolaev.github.io-max-fhir-ru-CodeSystem-businessEntityIndividual-individual"> </a>  
+                  <a href="CodeSystem-businessEntityIndividual.html#businessEntityIndividual-individual">individual</a>
+                </td>
+                <td>Физическое лицо</td>
+                <td>Физическое лицо</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividualVS"/>
+        <version value="0.2.0"/>
+        <name value="RuCoreBusinessEntityIndividualVS"/>
+        <title value="Юридическое или физическое лицо"/>
+        <status value="draft"/>
+        <date value="2022-06-30T12:52:13+03:00"/>
+        <publisher value="Maxim Nikolaev"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="https://github.com/MaximNikolaev"/>
+          </telecom>
+        </contact>
+        <description value="Определяет, является ли ресурс юридическим или физическом лицом"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:6e3fea06-e88d-4e33-816d-69aa1b8451b5"/>
+          <timestamp value="2022-06-30T12:52:28+03:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual"/>
+            <code value="businessEntity"/>
+            <display value="Юридическое лицо"/>
+          </contains>
+          <contains>
+            <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual"/>
+            <code value="individual"/>
+            <display value="Физическое лицо"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

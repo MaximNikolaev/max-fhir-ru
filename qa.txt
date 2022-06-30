@@ -1,41 +1,66 @@
 ﻿MaxFhirRu : Validation Results
 =========================================
 
-err = 15, warn = 5, info = 0
-IG Publisher Version: 1.1.121
-Generated Fri Jun 17 17:13:49 MSK 2022. FHIR version 4.0.1 for hl7.fhir.uv.max-fhir-ru#0.2.0 (canonical = https://maximnikolaev.github.io/max-fhir-ru)
+err = 0, warn = 0, info = 1
+IG Publisher Version: 1.1.122
+Generated Thu Jun 30 12:52:45 MSK 2022. FHIR version 4.0.1 for hl7.fhir.uv.max-fhir-ru#0.2.0 (canonical = https://maximnikolaev.github.io/max-fhir-ru)
  Build Errors : 0 / 0 / 0
+ D:\github\max-fhir-ru-dev\input\examples\ru-core-organization-mednet : 0 / 0 / 2
  D:\github\max-fhir-ru-dev\input\ig : 0 / 0 / 1
- D:\github\max-fhir-ru-dev\input\resources\Encounter.StructureDefinition : 3 / 1 / 1
- D:\github\max-fhir-ru-dev\input\resources\Observation.StructureDefinition : 3 / 1 / 1
- D:\github\max-fhir-ru-dev\input\resources\Organization.StructureDefinition : 3 / 1 / 1
- D:\github\max-fhir-ru-dev\input\resources\Patient.StructureDefinition : 3 / 1 / 1
- D:\github\max-fhir-ru-dev\input\resources\Practitioner.StructureDefinition : 3 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-activityKindFrmo : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-activityKindRzn : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-activityType : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-businessEntityIndividual : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-okato : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-okfs : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-okogu : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-okopf : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-oktmo : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\CodeSystem-okved : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-activityKindFrmo : 0 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-activityKindRzn : 0 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-activityType : 0 / 1 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-businessEntityIndividual : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-fssRegistration : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-okato : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-okfs : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-okogu : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-okopf : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-okpo : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-oktmo : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-okved : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-organization : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-pfrRegistration : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-stateRegistration : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\ValueSet-ru-core-businessEntityIndividual : 0 / 0 / 1
 </table>
 == n/a ==
+== input\examples\ru-core-organization-mednet.xml ==
+INFORMATION: Organization/example-ru-core-organization-mednet: Organization.identifier[1]: This element does not match any known slice defined in the profile https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization
 == input\ig.xml ==
-== input\resources\Encounter.StructureDefinition.xml ==
-ERROR: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter'): Conformance resource D:\github\max-fhir-ru-dev\input\resources\Encounter.StructureDefinition.xml - the canonical URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Encounter) does not match the URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter)
-ERROR: StructureDefinition.url: Resource id/url mismatch: Encounter/https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter
-WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter'): The Implementation Guide contains no examples for this profile
-ERROR: D:\github\max-fhir-ru-dev\input\resources\Encounter.StructureDefinition: URL Mismatch https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Encounter vs https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter
-== input\resources\Observation.StructureDefinition.xml ==
-ERROR: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation'): Conformance resource D:\github\max-fhir-ru-dev\input\resources\Observation.StructureDefinition.xml - the canonical URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Observation) does not match the URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation)
-ERROR: StructureDefinition.url: Resource id/url mismatch: Observation/https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation
-WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation'): The Implementation Guide contains no examples for this profile
-ERROR: D:\github\max-fhir-ru-dev\input\resources\Observation.StructureDefinition: URL Mismatch https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Observation vs https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation
-== input\resources\Organization.StructureDefinition.xml ==
-ERROR: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization'): Conformance resource D:\github\max-fhir-ru-dev\input\resources\Organization.StructureDefinition.xml - the canonical URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Organization) does not match the URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization)
-ERROR: StructureDefinition.url: Resource id/url mismatch: Organization/https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization
-WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization'): The Implementation Guide contains no examples for this profile
-ERROR: D:\github\max-fhir-ru-dev\input\resources\Organization.StructureDefinition: URL Mismatch https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Organization vs https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization
-== input\resources\Patient.StructureDefinition.xml ==
-ERROR: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient'): Conformance resource D:\github\max-fhir-ru-dev\input\resources\Patient.StructureDefinition.xml - the canonical URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Patient) does not match the URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient)
-ERROR: StructureDefinition.url: Resource id/url mismatch: Patient/https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient
-WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient'): The Implementation Guide contains no examples for this profile
-ERROR: D:\github\max-fhir-ru-dev\input\resources\Patient.StructureDefinition: URL Mismatch https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Patient vs https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient
-== input\resources\Practitioner.StructureDefinition.xml ==
-ERROR: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner'): Conformance resource D:\github\max-fhir-ru-dev\input\resources\Practitioner.StructureDefinition.xml - the canonical URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Practitioner) does not match the URL (https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner)
-ERROR: StructureDefinition.url: Resource id/url mismatch: Practitioner/https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner
-WARNING: StructureDefinition.where(url = 'https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner'): The Implementation Guide contains no examples for this profile
-ERROR: D:\github\max-fhir-ru-dev\input\resources\Practitioner.StructureDefinition: URL Mismatch https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/Practitioner vs https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner
+== input\resources\CodeSystem-activityKindFrmo.xml ==
+== input\resources\CodeSystem-activityKindRzn.xml ==
+== input\resources\CodeSystem-activityType.xml ==
+== input\resources\CodeSystem-businessEntityIndividual.xml ==
+== input\resources\CodeSystem-okato.xml ==
+== input\resources\CodeSystem-okfs.xml ==
+== input\resources\CodeSystem-okogu.xml ==
+== input\resources\CodeSystem-okopf.xml ==
+== input\resources\CodeSystem-oktmo.xml ==
+== input\resources\CodeSystem-okved.xml ==
+== input\resources\StructureDefinition-ru-core-activityKindFrmo.xml ==
+== input\resources\StructureDefinition-ru-core-activityKindRzn.xml ==
+== input\resources\StructureDefinition-ru-core-activityType.xml ==
+== input\resources\StructureDefinition-ru-core-businessEntityIndividual.xml ==
+== input\resources\StructureDefinition-ru-core-fssRegistration.xml ==
+== input\resources\StructureDefinition-ru-core-okato.xml ==
+== input\resources\StructureDefinition-ru-core-okfs.xml ==
+== input\resources\StructureDefinition-ru-core-okogu.xml ==
+== input\resources\StructureDefinition-ru-core-okopf.xml ==
+== input\resources\StructureDefinition-ru-core-okpo.xml ==
+== input\resources\StructureDefinition-ru-core-oktmo.xml ==
+== input\resources\StructureDefinition-ru-core-okved.xml ==
+== input\resources\StructureDefinition-ru-core-organization.xml ==
+== input\resources\StructureDefinition-ru-core-pfrRegistration.xml ==
+== input\resources\StructureDefinition-ru-core-stateRegistration.xml ==
+== input\resources\ValueSet-ru-core-businessEntityIndividual.xml ==

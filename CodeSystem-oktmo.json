@@ -1,0 +1,44 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oktmo",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">45 353 000<a name=\"oktmo-45353000\"> </a></td><td>муниципальный округ Бутырский</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo",
+  "version": "0.2.0",
+  "name": "Oktmo",
+  "title": "Классификатор ОКТМО",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Общероссийский классификатор территорий муниципальных образований",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "fragment",
+  "concept": [
+    {
+      "code": "45 353 000",
+      "display": "муниципальный округ Бутырский"
+    }
+  ]
+}

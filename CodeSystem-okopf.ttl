@@ -1,0 +1,217 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "okopf"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1 00 00<a name=\"okopf-10000\"> </a></td><td>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ КОММЕРЧЕСКИМИ КОРПОРАТИВНЫМИ ОРГАНИЗАЦИЯМИ</td></tr><tr><td style=\"white-space:nowrap\">1 22 00<a name=\"okopf-12200\"> </a></td><td>Акционерные общества</td></tr><tr><td style=\"white-space:nowrap\">1 22 47<a name=\"okopf-12247\"> </a></td><td>Публичные акционерные общества</td></tr><tr><td style=\"white-space:nowrap\">1 22 67<a name=\"okopf-12267\"> </a></td><td>Непубличные акционерные общества</td></tr><tr><td style=\"white-space:nowrap\">1 23 00<a name=\"okopf-12300\"> </a></td><td>Общества с ограниченной ответственностью</td></tr><tr><td style=\"white-space:nowrap\">2 07 16<a name=\"okopf-20716\"> </a></td><td>Товарищества собственников жилья</td></tr><tr><td style=\"white-space:nowrap\">5 00 00<a name=\"okopf-50000\"> </a></td><td>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ДЛЯ ДЕЯТЕЛЬНОСТИ ГРАЖДАН (ФИЗИЧЕСКИХ ЛИЦ)</td></tr><tr><td style=\"white-space:nowrap\">5 01 00<a name=\"okopf-50100\"> </a></td><td>Организационно-правовые формы для коммерческой деятельности граждан</td></tr><tr><td style=\"white-space:nowrap\">5 01 01<a name=\"okopf-50101\"> </a></td><td>Главы крестьянских (фермерских) хозяйств</td></tr><tr><td style=\"white-space:nowrap\">5 01 02<a name=\"okopf-50102\"> </a></td><td>Индивидуальные предприниматели</td></tr><tr><td style=\"white-space:nowrap\">5 02 00<a name=\"okopf-50200\"> </a></td><td>Организационно-правовые формы для деятельности граждан, не отнесенной к предпринимательству</td></tr><tr><td style=\"white-space:nowrap\">5 02 01<a name=\"okopf-50201\"> </a></td><td>Адвокаты, учредившие адвокатский кабинет</td></tr><tr><td style=\"white-space:nowrap\">5 02 02<a name=\"okopf-50202\"> </a></td><td>Нотариусы, занимающиеся частной практикой</td></tr><tr><td style=\"white-space:nowrap\">7 00 00<a name=\"okopf-70000\"> </a></td><td>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ НЕКОММЕРЧЕСКИМИ УНИТАРНЫМИ ОРГАНИЗАЦИЯМИ</td></tr><tr><td style=\"white-space:nowrap\">7 04 00<a name=\"okopf-70400\"> </a></td><td>Фонды</td></tr><tr><td style=\"white-space:nowrap\">7 04 01<a name=\"okopf-70401\"> </a></td><td>Благотворительные фонды</td></tr><tr><td style=\"white-space:nowrap\">7 04 02<a name=\"okopf-70402\"> </a></td><td>Негосударственные пенсионные фонды</td></tr><tr><td style=\"white-space:nowrap\">7 04 03<a name=\"okopf-70403\"> </a></td><td>Общественные фонды</td></tr><tr><td style=\"white-space:nowrap\">7 04 04<a name=\"okopf-70404\"> </a></td><td>Экологические фонды</td></tr><tr><td style=\"white-space:nowrap\">7 14 00<a name=\"okopf-71400\"> </a></td><td>Автономные некоммерческие организации</td></tr><tr><td style=\"white-space:nowrap\">7 15 00<a name=\"okopf-71500\"> </a></td><td>Религиозные организации</td></tr><tr><td style=\"white-space:nowrap\">7 16 00<a name=\"okopf-71600\"> </a></td><td>Публично-правовые компании</td></tr><tr><td style=\"white-space:nowrap\">7 16 01<a name=\"okopf-71601\"> </a></td><td>Государственные корпорации</td></tr><tr><td style=\"white-space:nowrap\">7 16 02<a name=\"okopf-71602\"> </a></td><td>Государственные компании</td></tr><tr><td style=\"white-space:nowrap\">7 16 10<a name=\"okopf-71610\"> </a></td><td>Отделения иностранных некоммерческих неправительственных организаций</td></tr><tr><td style=\"white-space:nowrap\">7 50 00<a name=\"okopf-75000\"> </a></td><td>Учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 51 00<a name=\"okopf-75100\"> </a></td><td>Учреждения, созданные Российской Федерацией</td></tr><tr><td style=\"white-space:nowrap\">7 51 01<a name=\"okopf-75101\"> </a></td><td>Федеральные государственные автономные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 51 03<a name=\"okopf-75103\"> </a></td><td>Федеральные государственные бюджетные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 51 04<a name=\"okopf-75104\"> </a></td><td>Федеральные государственные казенные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 52 00<a name=\"okopf-75200\"> </a></td><td>Учреждения, созданные субъектом Российской Федерации</td></tr><tr><td style=\"white-space:nowrap\">7 52 01<a name=\"okopf-75201\"> </a></td><td>Государственные автономные учреждения субъектов Российской Федерации</td></tr><tr><td style=\"white-space:nowrap\">7 52 03<a name=\"okopf-75203\"> </a></td><td>Государственные бюджетные учреждения субъектов Российской Федерации</td></tr><tr><td style=\"white-space:nowrap\">7 52 04<a name=\"okopf-75204\"> </a></td><td>Государственные казенные учреждения субъектов Российской Федерации</td></tr><tr><td style=\"white-space:nowrap\">7 53 00<a name=\"okopf-75300\"> </a></td><td>Государственные академии наук</td></tr><tr><td style=\"white-space:nowrap\">7 54 00<a name=\"okopf-75400\"> </a></td><td>Учреждения, созданные муниципальным образованием (муниципальные учреждения)</td></tr><tr><td style=\"white-space:nowrap\">7 54 01<a name=\"okopf-75401\"> </a></td><td>Муниципальные автономные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 54 03<a name=\"okopf-75403\"> </a></td><td>Муниципальные бюджетные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 54 04<a name=\"okopf-75404\"> </a></td><td>Муниципальные казенные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 55 00<a name=\"okopf-75500\"> </a></td><td>Частные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 55 02<a name=\"okopf-75502\"> </a></td><td>Благотворительные учреждения</td></tr><tr><td style=\"white-space:nowrap\">7 55 05<a name=\"okopf-75505\"> </a></td><td>Общественные учреждения</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.name [ fhir:value "Okopf"];
+  fhir:CodeSystem.title [ fhir:value "Классификатор ОКОПФ"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Maxim Nikolaev"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://github.com/MaximNikolaev" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Общероссийский классификатор организационно-правовых форм"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "fragment"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1 00 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ КОММЕРЧЕСКИМИ КОРПОРАТИВНЫМИ ОРГАНИЗАЦИЯМИ" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "1 22 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Акционерные общества" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "1 22 47" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Публичные акционерные общества" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "1 22 67" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Непубличные акционерные общества" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "1 23 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Общества с ограниченной ответственностью" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "2 07 16" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Товарищества собственников жилья" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "5 00 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ДЛЯ ДЕЯТЕЛЬНОСТИ ГРАЖДАН (ФИЗИЧЕСКИХ ЛИЦ)" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "5 01 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Организационно-правовые формы для коммерческой деятельности граждан" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "5 01 01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Главы крестьянских (фермерских) хозяйств" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "5 01 02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Индивидуальные предприниматели" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "5 02 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Организационно-правовые формы для деятельности граждан, не отнесенной к предпринимательству" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "5 02 01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Адвокаты, учредившие адвокатский кабинет" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "5 02 02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Нотариусы, занимающиеся частной практикой" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "7 00 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ НЕКОММЕРЧЕСКИМИ УНИТАРНЫМИ ОРГАНИЗАЦИЯМИ" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "7 04 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Фонды" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "7 04 01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Благотворительные фонды" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "7 04 02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Негосударственные пенсионные фонды" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "7 04 03" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Общественные фонды" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "7 04 04" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Экологические фонды" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "7 14 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Автономные некоммерческие организации" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "7 15 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Религиозные организации" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "7 16 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Публично-правовые компании" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "7 16 01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Государственные корпорации" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "7 16 02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Государственные компании" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "7 16 10" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Отделения иностранных некоммерческих неправительственных организаций" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "7 50 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Учреждения" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "7 51 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Учреждения, созданные Российской Федерацией" ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "7 51 01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Федеральные государственные автономные учреждения" ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "7 51 03" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Федеральные государственные бюджетные учреждения" ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "7 51 04" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Федеральные государственные казенные учреждения" ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "7 52 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Учреждения, созданные субъектом Российской Федерации" ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "7 52 01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Государственные автономные учреждения субъектов Российской Федерации" ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "7 52 03" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Государственные бюджетные учреждения субъектов Российской Федерации" ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "7 52 04" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Государственные казенные учреждения субъектов Российской Федерации" ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "7 53 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Государственные академии наук" ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "7 54 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Учреждения, созданные муниципальным образованием (муниципальные учреждения)" ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "7 54 01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Муниципальные автономные учреждения" ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "7 54 03" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Муниципальные бюджетные учреждения" ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "7 54 04" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Муниципальные казенные учреждения" ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "7 55 00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Частные учреждения" ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "7 55 02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Благотворительные учреждения" ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "7 55 05" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Общественные учреждения" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

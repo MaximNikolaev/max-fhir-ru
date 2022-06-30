@@ -7,7 +7,7 @@
 </div></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="informative"/>
+    <valueCode value="draft"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
@@ -18,7 +18,7 @@
   <title value="unofficial FHIR ru-core implementation guide for Russian Federation"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-06-17T17:13:24+03:00"/>
+  <date value="2022-06-30T12:52:13+03:00"/>
   <publisher value="Maxim Nikolaev"/>
   <contact>
     <telecom>
@@ -220,53 +220,273 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Encounter"/>
+        <reference value="Organization/example-ru-core-organization-mednet"/>
       </reference>
-      <name value="Случай обслуживания"/>
-      <description value="Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения"/>
+      <name value="Example Organization - example-ru-core-organization-mednet"/>
+      <exampleCanonical value="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/activityKindFrmo"/>
+      </reference>
+      <name value="Вид деятельности организации (ФРМО)"/>
+      <description value="ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/activityKindRzn"/>
+      </reference>
+      <name value="Вид деятельности организации (РЗН)"/>
+      <description value="Справочник видов деятельности по классификации Росздравнадзора"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/activityType"/>
+      </reference>
+      <name value="Тип деятельности организации"/>
+      <description value="Классификатор типов деятельности организации"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/businessEntityIndividual"/>
+      </reference>
+      <name value="Юридическое / физическое лицо"/>
+      <description value="Юридическое или физическое лицо (используется для организаций)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/okato"/>
+      </reference>
+      <name value="Классификатор ОКАТО"/>
+      <description value="Общероссийский классификатор объектов административно-территориального деления"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/okfs"/>
+      </reference>
+      <name value="Классификатор ОКФС"/>
+      <description value="Общероссийский классификатор форм собственности"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/okogu"/>
+      </reference>
+      <name value="Классификатор ОКОГУ"/>
+      <description value="Общероссийский классификатор органов государственной власти и управления"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/okopf"/>
+      </reference>
+      <name value="Классификатор ОКОПФ"/>
+      <description value="Общероссийский классификатор организационно-правовых форм"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/oktmo"/>
+      </reference>
+      <name value="Классификатор ОКТМО"/>
+      <description value="Общероссийский классификатор территорий муниципальных образований"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/okved"/>
+      </reference>
+      <name value="Классификатор ОКВЭД"/>
+      <description value="Общероссийский классификатор видов экономической деятельности"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-activityKindFrmo"/>
+      </reference>
+      <name value="Вид деятельности (ФРМО)"/>
+      <description value="ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-activityKindRzn"/>
+      </reference>
+      <name value="Вид деятельности (РЗН)"/>
+      <description value="Справочник видов деятельности по классификации Росздравнадзора"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-activityType"/>
+      </reference>
+      <name value="Тип деятельности"/>
+      <description value="Классификация организаций по типам деятельности"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-businessEntityIndividual"/>
+      </reference>
+      <name value="Юридическое / физическое лицо"/>
+      <description value="Юридическое / физическое лицо"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-fssRegistration"/>
+      </reference>
+      <name value="Данные о регистрации в ФСС"/>
+      <description value="Данные о регистрации в ФСС Фонде Социального Страхования Российской Федерации (рег. номер в ПФР и наименование органа ФСС)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-okato"/>
+      </reference>
+      <name value="ОКАТО"/>
+      <description value="ОКАТО Общероссийский классификатор объектов административно-территориального деления"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-okfs"/>
+      </reference>
+      <name value="ОКФС"/>
+      <description value="ОКФС Общероссийский классификатор форм собственности"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-okogu"/>
+      </reference>
+      <name value="ОКОГУ"/>
+      <description value="ОКОГУ Общероссийский классификатор органов государственной власти и управления"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-okopf"/>
+      </reference>
+      <name value="ОКОПФ"/>
+      <description value="ОКОПФ Общероссийский классификатор организационно-правовых форм"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-okpo"/>
+      </reference>
+      <name value="ОКПО"/>
+      <description value="Код по ОКПО Общероссийский классификатор предприятий и организаций"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-oktmo"/>
+      </reference>
+      <name value="ОКТМО"/>
+      <description value="ОКТМО Общероссийский классификатор территорий муниципальных образований"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-okved"/>
+      </reference>
+      <name value="ОКВЭД"/>
+      <description value="ОКВЭД Общероссийский классификатор видов экономической деятельности"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Observation"/>
+        <reference value="StructureDefinition/ru-core-organization"/>
       </reference>
-      <name value="Результат наблюдения"/>
-      <description value="Профиль описывает измерения и простые утверждения о пациенте"/>
+      <name value="Организация (профиль)"/>
+      <description value="Определяет базовый профиль Организация"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Organization"/>
+        <reference value="StructureDefinition/ru-core-pfrRegistration"/>
       </reference>
-      <name value="Организация"/>
-      <description value="Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения"/>
+      <name value="Данные о регистрации в ПФР"/>
+      <description value="Данные о регистрации в ПФР Пенсионном Фонде Российской Федерации (рег. номер в ПФР и наименование органа ПФР)"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Patient"/>
+        <reference value="StructureDefinition/ru-core-stateRegistration"/>
       </reference>
-      <name value="Пациент"/>
-      <description value="Профиль пациента описывает человека, получающего медицинскую помощь"/>
+      <name value="Свидетельство о гос. регистрации"/>
+      <description value="Данные о государственной регистрации юридического лица / ИП (номер и дата свидетельства)"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Practitioner"/>
+        <reference value="ValueSet/ru-core-businessEntityIndividualVS"/>
       </reference>
-      <name value="Врач"/>
-      <description value="Профиль Врач предназначен для описания врачей, медицинских работников, специалистов."/>
+      <name value="Юридическое или физическое лицо"/>
+      <description value="Определяет, является ли ресурс юридическим или физическом лицом"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

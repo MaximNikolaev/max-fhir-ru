@@ -1,5 +1,75 @@
 [
   {
+    "id": "activityKindFrmo",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindFrmo",
+    "version": "0.2.0",
+    "name": "ActivityKindFrmo"
+  },
+  {
+    "id": "activityKindRzn",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindRzn",
+    "version": "0.2.0",
+    "name": "ActivityKindRzn"
+  },
+  {
+    "id": "activityType",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType",
+    "version": "0.2.0",
+    "name": "ActivityType"
+  },
+  {
+    "id": "businessEntityIndividual",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual",
+    "version": "0.2.0",
+    "name": "BusinessEntityIndividual"
+  },
+  {
+    "id": "okato",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato",
+    "version": "0.2.0",
+    "name": "Okato"
+  },
+  {
+    "id": "okfs",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs",
+    "version": "0.2.0",
+    "name": "Okfs"
+  },
+  {
+    "id": "okogu",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu",
+    "version": "0.2.0",
+    "name": "Okogu"
+  },
+  {
+    "id": "okopf",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf",
+    "version": "0.2.0",
+    "name": "Okopf"
+  },
+  {
+    "id": "oktmo",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo",
+    "version": "0.2.0",
+    "name": "Oktmo"
+  },
+  {
+    "id": "okved",
+    "type": "CodeSystem",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved",
+    "version": "0.2.0",
+    "name": "Okved"
+  },
+  {
     "id": "hl7.fhir.uv.max-fhir-ru",
     "type": "ImplementationGuide",
     "url": "https://maximnikolaev.github.io/max-fhir-ru/ImplementationGuide/hl7.fhir.uv.max-fhir-ru",
@@ -7,38 +77,115 @@
     "name": "MaxFhirRu"
   },
   {
-    "id": "Encounter",
+    "id": "ru-core-activityKindFrmo",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityKindFrmo",
     "version": "0.2.0",
-    "name": "Encounter"
+    "name": "RuCoreActivityKindFrmoExtension"
   },
   {
-    "id": "Observation",
+    "id": "ru-core-activityKindRzn",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityKindRzn",
     "version": "0.2.0",
-    "name": "Observation"
+    "name": "RuCoreActivityKindRznExtension"
   },
   {
-    "id": "Organization",
+    "id": "ru-core-activityType",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityType",
     "version": "0.2.0",
-    "name": "Organization"
+    "name": "RuCoreActivityTypeExtension"
   },
   {
-    "id": "Patient",
+    "id": "ru-core-businessEntityIndividual",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual",
     "version": "0.2.0",
-    "name": "Patient"
+    "name": "RuCoreBusinessEntityIndividualExtension"
   },
   {
-    "id": "Practitioner",
+    "id": "ru-core-fssRegistration",
     "type": "StructureDefinition",
-    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration",
     "version": "0.2.0",
-    "name": "Practitioner"
+    "name": "RuCoreFSSExtension"
+  },
+  {
+    "id": "ru-core-okato",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okato",
+    "version": "0.2.0",
+    "name": "RuCoreOKATOExtension"
+  },
+  {
+    "id": "ru-core-okfs",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okfs",
+    "version": "0.2.0",
+    "name": "RuCoreOKFSExtension"
+  },
+  {
+    "id": "ru-core-okogu",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okogu",
+    "version": "0.2.0",
+    "name": "RuCoreOKOGUExtension"
+  },
+  {
+    "id": "ru-core-okopf",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okopf",
+    "version": "0.2.0",
+    "name": "RuCoreOKOPFExtension"
+  },
+  {
+    "id": "ru-core-okpo",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okpo",
+    "version": "0.2.0",
+    "name": "RuCoreOKPOExtension"
+  },
+  {
+    "id": "ru-core-oktmo",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-oktmo",
+    "version": "0.2.0",
+    "name": "RuCoreOKTMOExtension"
+  },
+  {
+    "id": "ru-core-okved",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okved",
+    "version": "0.2.0",
+    "name": "RuCoreOKVEDExtension"
+  },
+  {
+    "id": "ru-core-organization",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization",
+    "version": "0.2.0",
+    "name": "RuCoreOrganizationProfile"
+  },
+  {
+    "id": "ru-core-pfrRegistration",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration",
+    "version": "0.2.0",
+    "name": "RuCorePFRExtension"
+  },
+  {
+    "id": "ru-core-stateRegistration",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration",
+    "version": "0.2.0",
+    "name": "RuCoreStateRegistrationExtension"
+  },
+  {
+    "id": "ru-core-businessEntityIndividualVS",
+    "type": "ValueSet",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividualVS",
+    "version": "0.2.0",
+    "name": "RuCoreBusinessEntityIndividualVS"
   }
 ]

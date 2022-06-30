@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="okato"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato defines many codes, of which the following are a subset:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">45 280 561<a name="okato-45280561"> </a></td><td>Бутырский</td></tr></table></div>
+  </text>
+  <url value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato"/>
+  <version value="0.2.0"/>
+  <name value="Okato"/>
+  <title value="Классификатор ОКАТО"/>
+  <status value="draft"/>
+  <date value="2022-06-30T12:52:13+03:00"/>
+  <publisher value="Maxim Nikolaev"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/MaximNikolaev"/>
+    </telecom>
+  </contact>
+  <description value="Общероссийский классификатор объектов административно-территориального деления"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="fragment"/>
+  <concept>
+    <code value="45 280 561"/>
+    <display value="Бутырский"/>
+  </concept>
+</CodeSystem>

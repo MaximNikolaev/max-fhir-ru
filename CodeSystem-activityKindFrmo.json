@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "activityKindFrmo",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindFrmo defines some example codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"activityKindFrmo-1\"> </a></td><td>Больница (в том числе детская)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"activityKindFrmo-2\"> </a></td><td>Больница скорой медицинской помощи</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindFrmo",
+  "version": "0.2.0",
+  "name": "ActivityKindFrmo",
+  "title": "Вид деятельности организации (ФРМО)",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "example",
+  "concept": [
+    {
+      "code": "1",
+      "definition": "Больница (в том числе детская)"
+    },
+    {
+      "code": "2",
+      "definition": "Больница скорой медицинской помощи"
+    }
+  ]
+}

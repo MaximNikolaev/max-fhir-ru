@@ -1,0 +1,70 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "activityType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">lo<a name=\"activityType-lo\"> </a></td><td>ЛО</td><td>Лицензируемая организация, то есть новая организация, которая собирает данные для получения лицензии (ещё не МО, ФО и ОО)</td></tr><tr><td style=\"white-space:nowrap\">mo<a name=\"activityType-mo\"> </a></td><td>МО</td><td>Медицинская организация</td></tr><tr><td style=\"white-space:nowrap\">fo<a name=\"activityType-fo\"> </a></td><td>ФО</td><td>Фармацевтическая организация</td></tr><tr><td style=\"white-space:nowrap\">oo<a name=\"activityType-oo\"> </a></td><td>ОО</td><td>Образовательная организация</td></tr><tr><td style=\"white-space:nowrap\">ho<a name=\"activityType-ho\"> </a></td><td>ОЗ</td><td>Организатор здравоохранения</td></tr><tr><td style=\"white-space:nowrap\">io<a name=\"activityType-io\"> </a></td><td>СО</td><td>Страховая организация</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType",
+  "version": "0.2.0",
+  "name": "ActivityType",
+  "title": "Тип деятельности организации",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Классификатор типов деятельности организации",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "lo",
+      "display": "ЛО",
+      "definition": "Лицензируемая организация, то есть новая организация, которая собирает данные для получения лицензии (ещё не МО, ФО и ОО)"
+    },
+    {
+      "code": "mo",
+      "display": "МО",
+      "definition": "Медицинская организация"
+    },
+    {
+      "code": "fo",
+      "display": "ФО",
+      "definition": "Фармацевтическая организация"
+    },
+    {
+      "code": "oo",
+      "display": "ОО",
+      "definition": "Образовательная организация"
+    },
+    {
+      "code": "ho",
+      "display": "ОЗ",
+      "definition": "Организатор здравоохранения"
+    },
+    {
+      "code": "io",
+      "display": "СО",
+      "definition": "Страховая организация"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-      "valueCode": "informative"
+      "valueCode": "draft"
     },
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -21,7 +21,7 @@
   "title": "unofficial FHIR ru-core implementation guide for Russian Federation",
   "status": "draft",
   "experimental": false,
-  "date": "2022-06-17T17:13:24+03:00",
+  "date": "2022-06-30T12:52:13+03:00",
   "publisher": "Maxim Nikolaev",
   "contact": [
     {
@@ -351,14 +351,300 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
+            "valueString": "Organization"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Encounter"
+          "reference": "Organization/example-ru-core-organization-mednet"
         },
-        "name": "Случай обслуживания",
-        "description": "Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения"
+        "name": "Example Organization - example-ru-core-organization-mednet",
+        "exampleCanonical": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/activityKindFrmo"
+        },
+        "name": "Вид деятельности организации (ФРМО)",
+        "description": "ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/activityKindRzn"
+        },
+        "name": "Вид деятельности организации (РЗН)",
+        "description": "Справочник видов деятельности по классификации Росздравнадзора"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/activityType"
+        },
+        "name": "Тип деятельности организации",
+        "description": "Классификатор типов деятельности организации"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/businessEntityIndividual"
+        },
+        "name": "Юридическое / физическое лицо",
+        "description": "Юридическое или физическое лицо (используется для организаций)"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/okato"
+        },
+        "name": "Классификатор ОКАТО",
+        "description": "Общероссийский классификатор объектов административно-территориального деления"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/okfs"
+        },
+        "name": "Классификатор ОКФС",
+        "description": "Общероссийский классификатор форм собственности"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/okogu"
+        },
+        "name": "Классификатор ОКОГУ",
+        "description": "Общероссийский классификатор органов государственной власти и управления"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/okopf"
+        },
+        "name": "Классификатор ОКОПФ",
+        "description": "Общероссийский классификатор организационно-правовых форм"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/oktmo"
+        },
+        "name": "Классификатор ОКТМО",
+        "description": "Общероссийский классификатор территорий муниципальных образований"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/okved"
+        },
+        "name": "Классификатор ОКВЭД",
+        "description": "Общероссийский классификатор видов экономической деятельности"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-activityKindFrmo"
+        },
+        "name": "Вид деятельности (ФРМО)",
+        "description": "ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-activityKindRzn"
+        },
+        "name": "Вид деятельности (РЗН)",
+        "description": "Справочник видов деятельности по классификации Росздравнадзора"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-activityType"
+        },
+        "name": "Тип деятельности",
+        "description": "Классификация организаций по типам деятельности"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-businessEntityIndividual"
+        },
+        "name": "Юридическое / физическое лицо",
+        "description": "Юридическое / физическое лицо"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-fssRegistration"
+        },
+        "name": "Данные о регистрации в ФСС",
+        "description": "Данные о регистрации в ФСС Фонде Социального Страхования Российской Федерации (рег. номер в ПФР и наименование органа ФСС)"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-okato"
+        },
+        "name": "ОКАТО",
+        "description": "ОКАТО Общероссийский классификатор объектов административно-территориального деления"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-okfs"
+        },
+        "name": "ОКФС",
+        "description": "ОКФС Общероссийский классификатор форм собственности"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-okogu"
+        },
+        "name": "ОКОГУ",
+        "description": "ОКОГУ Общероссийский классификатор органов государственной власти и управления"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-okopf"
+        },
+        "name": "ОКОПФ",
+        "description": "ОКОПФ Общероссийский классификатор организационно-правовых форм"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-okpo"
+        },
+        "name": "ОКПО",
+        "description": "Код по ОКПО Общероссийский классификатор предприятий и организаций"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-oktmo"
+        },
+        "name": "ОКТМО",
+        "description": "ОКТМО Общероссийский классификатор территорий муниципальных образований"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-okved"
+        },
+        "name": "ОКВЭД",
+        "description": "ОКВЭД Общероссийский классификатор видов экономической деятельности"
       },
       {
         "extension": [
@@ -368,49 +654,49 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Observation"
+          "reference": "StructureDefinition/ru-core-organization"
         },
-        "name": "Результат наблюдения",
-        "description": "Профиль описывает измерения и простые утверждения о пациенте"
+        "name": "Организация (профиль)",
+        "description": "Определяет базовый профиль Организация"
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
+            "valueString": "StructureDefinition:extension"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Organization"
+          "reference": "StructureDefinition/ru-core-pfrRegistration"
         },
-        "name": "Организация",
-        "description": "Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения"
+        "name": "Данные о регистрации в ПФР",
+        "description": "Данные о регистрации в ПФР Пенсионном Фонде Российской Федерации (рег. номер в ПФР и наименование органа ПФР)"
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
+            "valueString": "StructureDefinition:extension"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Patient"
+          "reference": "StructureDefinition/ru-core-stateRegistration"
         },
-        "name": "Пациент",
-        "description": "Профиль пациента описывает человека, получающего медицинскую помощь"
+        "name": "Свидетельство о гос. регистрации",
+        "description": "Данные о государственной регистрации юридического лица / ИП (номер и дата свидетельства)"
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
+            "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Practitioner"
+          "reference": "ValueSet/ru-core-businessEntityIndividualVS"
         },
-        "name": "Врач",
-        "description": "Профиль Врач предназначен для описания врачей, медицинских работников, специалистов."
+        "name": "Юридическое или физическое лицо",
+        "description": "Определяет, является ли ресурс юридическим или физическом лицом"
       }
     ],
     "page": {

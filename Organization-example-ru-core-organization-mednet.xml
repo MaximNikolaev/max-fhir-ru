@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="example-ru-core-organization-mednet"/>
+  <meta>
+    <profile value="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-ru-core-organization-mednet" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ru-core-organization.html">Организация (профиль)</a></p></div><p><b>Юридическое / физическое лицо</b>: businessEntity</p><p><b>ОКАТО</b>: Бутырский (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato code 45 280 561 = 'Бутырский', stated as 'Бутырский')</p><p><b>ОКТМО</b>: муниципальный округ Бутырский (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo code 45 353 000 = 'муниципальный округ Бутырский', stated as 'муниципальный округ Бутырский')</p><p><b>ОКВЭД</b>: Научные исследования и разработки в области естественных и технических наук прочие (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved code 72.19 = 'Научные исследования и разработки в области естественных и технических наук прочие', stated as 'Научные исследования и разработки в области естественных и технических наук прочие')</p><p><b>ОКФС</b>: Федеральная собственность (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs code 12 = 'Федеральная собственность', stated as 'Федеральная собственность')</p><p><b>ОКОПФ</b>: Федеральные государственные бюджетные учреждения (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf code 7 51 03 = 'Федеральные государственные бюджетные учреждения', stated as 'Федеральные государственные бюджетные учреждения')</p><p><b>ОКОГУ</b>: Министерство здравоохранения Российской Федерации (Details: https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu code 1320700 = 'Министерство здравоохранения Российской Федерации', stated as 'Министерство здравоохранения Российской Федерации')</p><p><b>ОКПО</b>: 18987596</p><blockquote><p><b>Свидетельство о гос. регистрации</b></p><p><b>value</b>: 00 000000000</p><p><b>value</b>: 2002-09-30</p></blockquote><blockquote><p><b>Данные о регистрации в ПФР</b></p><p><b>value</b>: 087310042923</p><p><b>value</b>: Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы</p></blockquote><blockquote><p><b>Данные о регистрации в ФСС</b></p><p><b>value</b>: 770900509177031</p><p><b>value</b>: Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации</p></blockquote><p><b>identifier</b>: id: 7715217798, id: 1027739277235</p><p><b>active</b>: true</p><p><b>name</b>: ФГБУ ЦНИИОИЗ Минздрава России</p><p><b>alias</b>: Федеральное государственное бюджетное учреждение "Центральный научно-исследовательский институт                  организации и информатизации здравоохранения" Министерства здравоохранения Российской Федерации</p></div>
+  </text>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual">
+    <valueCode value="businessEntity"/>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okato">
+    <valueCoding>
+      <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato"/>
+      <code value="45 280 561"/>
+      <display value="Бутырский"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-oktmo">
+    <valueCoding>
+      <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo"/>
+      <code value="45 353 000"/>
+      <display value="муниципальный округ Бутырский"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okved">
+    <valueCoding>
+      <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved"/>
+      <code value="72.19"/>
+      <display value="Научные исследования и разработки в области естественных и технических наук прочие"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okfs">
+    <valueCoding>
+      <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs"/>
+      <code value="12"/>
+      <display value="Федеральная собственность"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okopf">
+    <valueCoding>
+      <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf"/>
+      <code value="7 51 03"/>
+      <display value="Федеральные государственные бюджетные учреждения"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okogu">
+    <valueCoding>
+      <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu"/>
+      <code value="1320700"/>
+      <display value="Министерство здравоохранения Российской Федерации"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okpo">
+    <valueCode value="18987596"/>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration">
+    <extension url="regNumber">
+      <valueString value="00 000000000"/>
+    </extension>
+    <extension url="regDate">
+      <valueDate value="2002-09-30"/>
+    </extension>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration">
+    <extension url="regNumber">
+      <valueString value="087310042923"/>
+    </extension>
+    <extension url="regName">
+      <valueString value="Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы"/>
+    </extension>
+  </extension>
+  <extension url="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration">
+    <extension url="regNumber">
+      <valueString value="770900509177031"/>
+    </extension>
+    <extension url="regName">
+      <valueString value="Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации"/>
+    </extension>
+  </extension>
+<!--     <identifier>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="TAX"/>
+            </coding>
+        </type>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <value value="111222333444"/>
+    </identifier>
+
+    <identifier>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="AIN"/>
+            </coding>
+        </type>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <value value="aaaaccccc"/>
+    </identifier> -->
+<!--     <identifier>
+        <system value="urn:oid:1.2.643.5.1.13.13.11.1461"/>
+        <value value="6854238"/> &lt;!&ndash;1.2.643.5.1.13.13.12.2.77.8511&ndash;&gt;
+    </identifier> -->
+  <identifier>
+    <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/inn"/>
+    <value value="7715217798"/>
+  </identifier>
+  <identifier>
+    <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/orgn"/>
+    <value value="1027739277235"/>
+  </identifier>
+  <active value="true"/>
+  <name value="ФГБУ ЦНИИОИЗ Минздрава России"/>
+  <alias value="Федеральное государственное бюджетное учреждение &quot;Центральный научно-исследовательский институт                  организации и информатизации здравоохранения&quot; Министерства здравоохранения Российской Федерации"/>
+</Organization>

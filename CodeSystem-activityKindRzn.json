@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "activityKindRzn",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindRzn defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"activityKindRzn-1\"> </a></td><td>Медицинская деятельность</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"activityKindRzn-2\"> </a></td><td>Фармацевтическая деятельность</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"activityKindRzn-3\"> </a></td><td>Деятельность по обороту наркотических средств, психотропных веществ и их прекурсоров, культивированию наркосодержащих растений</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"activityKindRzn-4\"> </a></td><td>Деятельность по производству и техническому обслуживанию (за исключением случая, если техническое обслуживание осуществляется для обеспечения собственных нужд юридического лица или индивидуального предпринимателя)</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindRzn",
+  "version": "0.2.0",
+  "name": "ActivityKindRzn",
+  "title": "Вид деятельности организации (РЗН)",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Справочник видов деятельности по классификации Росздравнадзора",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "definition": "Медицинская деятельность"
+    },
+    {
+      "code": "2",
+      "definition": "Фармацевтическая деятельность"
+    },
+    {
+      "code": "3",
+      "definition": "Деятельность по обороту наркотических средств, психотропных веществ и их прекурсоров, культивированию наркосодержащих растений"
+    },
+    {
+      "code": "4",
+      "definition": "Деятельность по производству и техническому обслуживанию (за исключением случая, если техническое обслуживание осуществляется для обеспечения собственных нужд юридического лица или индивидуального предпринимателя)"
+    }
+  ]
+}

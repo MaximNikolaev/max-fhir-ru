@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "oktmo"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">45 353 000<a name=\"oktmo-45353000\"> </a></td><td>муниципальный округ Бутырский</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.name [ fhir:value "Oktmo"];
+  fhir:CodeSystem.title [ fhir:value "Классификатор ОКТМО"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Maxim Nikolaev"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://github.com/MaximNikolaev" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Общероссийский классификатор территорий муниципальных образований"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "fragment"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "45 353 000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "муниципальный округ Бутырский" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

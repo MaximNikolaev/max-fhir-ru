@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="activityKindRzn"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindRzn defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="activityKindRzn-1"> </a></td><td>Медицинская деятельность</td></tr><tr><td style="white-space:nowrap">2<a name="activityKindRzn-2"> </a></td><td>Фармацевтическая деятельность</td></tr><tr><td style="white-space:nowrap">3<a name="activityKindRzn-3"> </a></td><td>Деятельность по обороту наркотических средств, психотропных веществ и их прекурсоров, культивированию наркосодержащих растений</td></tr><tr><td style="white-space:nowrap">4<a name="activityKindRzn-4"> </a></td><td>Деятельность по производству и техническому обслуживанию (за исключением случая, если техническое обслуживание осуществляется для обеспечения собственных нужд юридического лица или индивидуального предпринимателя)</td></tr></table></div>
+  </text>
+  <url value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityKindRzn"/>
+  <version value="0.2.0"/>
+  <name value="ActivityKindRzn"/>
+  <title value="Вид деятельности организации (РЗН)"/>
+  <status value="draft"/>
+  <date value="2022-06-30T12:52:13+03:00"/>
+  <publisher value="Maxim Nikolaev"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/MaximNikolaev"/>
+    </telecom>
+  </contact>
+  <description value="Справочник видов деятельности по классификации Росздравнадзора"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <definition value="Медицинская деятельность"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <definition value="Фармацевтическая деятельность"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <definition value="Деятельность по обороту наркотических средств, психотропных веществ и их прекурсоров, культивированию наркосодержащих растений"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <definition value="Деятельность по производству и техническому обслуживанию (за исключением случая, если техническое обслуживание осуществляется для обеспечения собственных нужд юридического лица или индивидуального предпринимателя)"/>
+  </concept>
+</CodeSystem>

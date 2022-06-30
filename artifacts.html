@@ -125,7 +125,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="StructureDefinition-Encounter.html">next&gt;</a>
+          | <a href="StructureDefinition-ru-core-organization.html">next&gt;</a>
 
           </span>
 
@@ -159,6 +159,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>
          <a href="#1">Structures: Resource Profiles</a>
       </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
+      </li>
    </ul>
 </div>
 <div xmlns:html="http://www.w3.org/1999/xhtml"
@@ -176,48 +188,284 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-Encounter.html"
-                     title="StructureDefinition/Encounter">Случай обслуживания</a>
+                  <a href="StructureDefinition-ru-core-organization.html"
+                     title="StructureDefinition/ru-core-organization">Организация (профиль)</a>
                </td>
                <td>
-<p>Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения</p>
+<p>Определяет базовый профиль Организация</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-activityKindFrmo.html"
+                     title="StructureDefinition/ru-core-activityKindFrmo">Вид деятельности (ФРМО)</a>
+               </td>
+               <td>
+<p>ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-Observation.html"
-                     title="StructureDefinition/Observation">Результат наблюдения</a>
+                  <a href="StructureDefinition-ru-core-activityKindRzn.html"
+                     title="StructureDefinition/ru-core-activityKindRzn">Вид деятельности (РЗН)</a>
                </td>
                <td>
-<p>Профиль описывает измерения и простые утверждения о пациенте</p>
+<p>Справочник видов деятельности по классификации Росздравнадзора</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-Organization.html"
-                     title="StructureDefinition/Organization">Организация</a>
+                  <a href="StructureDefinition-ru-core-activityType.html"
+                     title="StructureDefinition/ru-core-activityType">Тип деятельности</a>
                </td>
                <td>
-<p>Профиль организации описывает субъекты хозяйственной деятельности в области здравоохранения</p>
+<p>Классификация организаций по типам деятельности</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-Patient.html"
-                     title="StructureDefinition/Patient">Пациент</a>
+                  <a href="StructureDefinition-ru-core-businessEntityIndividual.html"
+                     title="StructureDefinition/ru-core-businessEntityIndividual">Юридическое / физическое лицо</a>
                </td>
                <td>
-<p>Профиль пациента описывает человека, получающего медицинскую помощь</p>
+<p>Юридическое / физическое лицо</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-Practitioner.html"
-                     title="StructureDefinition/Practitioner">Врач</a>
+                  <a href="StructureDefinition-ru-core-fssRegistration.html"
+                     title="StructureDefinition/ru-core-fssRegistration">Данные о регистрации в ФСС</a>
                </td>
                <td>
-<p>Профиль Врач предназначен для описания врачей, медицинских работников, специалистов.</p>
+<p>Данные о регистрации в ФСС Фонде Социального Страхования Российской Федерации (рег. номер в ПФР и наименование органа ФСС)</p>
 </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-okato.html"
+                     title="StructureDefinition/ru-core-okato">ОКАТО</a>
+               </td>
+               <td>
+<p>ОКАТО Общероссийский классификатор объектов административно-территориального деления</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-okfs.html"
+                     title="StructureDefinition/ru-core-okfs">ОКФС</a>
+               </td>
+               <td>
+<p>ОКФС Общероссийский классификатор форм собственности</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-okogu.html"
+                     title="StructureDefinition/ru-core-okogu">ОКОГУ</a>
+               </td>
+               <td>
+<p>ОКОГУ Общероссийский классификатор органов государственной власти и управления</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-okopf.html"
+                     title="StructureDefinition/ru-core-okopf">ОКОПФ</a>
+               </td>
+               <td>
+<p>ОКОПФ Общероссийский классификатор организационно-правовых форм</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-okpo.html"
+                     title="StructureDefinition/ru-core-okpo">ОКПО</a>
+               </td>
+               <td>
+<p>Код по ОКПО Общероссийский классификатор предприятий и организаций</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-oktmo.html"
+                     title="StructureDefinition/ru-core-oktmo">ОКТМО</a>
+               </td>
+               <td>
+<p>ОКТМО Общероссийский классификатор территорий муниципальных образований</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-okved.html"
+                     title="StructureDefinition/ru-core-okved">ОКВЭД</a>
+               </td>
+               <td>
+<p>ОКВЭД Общероссийский классификатор видов экономической деятельности</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-pfrRegistration.html"
+                     title="StructureDefinition/ru-core-pfrRegistration">Данные о регистрации в ПФР</a>
+               </td>
+               <td>
+<p>Данные о регистрации в ПФР Пенсионном Фонде Российской Федерации (рег. номер в ПФР и наименование органа ПФР)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ru-core-stateRegistration.html"
+                     title="StructureDefinition/ru-core-stateRegistration">Свидетельство о гос. регистрации</a>
+               </td>
+               <td>
+<p>Данные о государственной регистрации юридического лица / ИП (номер и дата свидетельства)</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-ru-core-businessEntityIndividualVS.html"
+                     title="ValueSet/ru-core-businessEntityIndividualVS">Юридическое или физическое лицо</a>
+               </td>
+               <td>
+<p>Определяет, является ли ресурс юридическим или физическом лицом</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-activityKindFrmo.html"
+                     title="CodeSystem/activityKindFrmo">Вид деятельности организации (ФРМО)</a>
+               </td>
+               <td>
+<p>ФРМО. Номенклатура медицинских организаций по виду медицинской деятельности</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-activityKindRzn.html"
+                     title="CodeSystem/activityKindRzn">Вид деятельности организации (РЗН)</a>
+               </td>
+               <td>
+<p>Справочник видов деятельности по классификации Росздравнадзора</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-activityType.html" title="CodeSystem/activityType">Тип деятельности организации</a>
+               </td>
+               <td>
+<p>Классификатор типов деятельности организации</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-businessEntityIndividual.html"
+                     title="CodeSystem/businessEntityIndividual">Юридическое / физическое лицо</a>
+               </td>
+               <td>
+<p>Юридическое или физическое лицо (используется для организаций)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-okato.html" title="CodeSystem/okato">Классификатор ОКАТО</a>
+               </td>
+               <td>
+<p>Общероссийский классификатор объектов административно-территориального деления</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-okfs.html" title="CodeSystem/okfs">Классификатор ОКФС</a>
+               </td>
+               <td>
+<p>Общероссийский классификатор форм собственности</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-okogu.html" title="CodeSystem/okogu">Классификатор ОКОГУ</a>
+               </td>
+               <td>
+<p>Общероссийский классификатор органов государственной власти и управления</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-okopf.html" title="CodeSystem/okopf">Классификатор ОКОПФ</a>
+               </td>
+               <td>
+<p>Общероссийский классификатор организационно-правовых форм</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-oktmo.html" title="CodeSystem/oktmo">Классификатор ОКТМО</a>
+               </td>
+               <td>
+<p>Общероссийский классификатор территорий муниципальных образований</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-okved.html" title="CodeSystem/okved">Классификатор ОКВЭД</a>
+               </td>
+               <td>
+<p>Общероссийский классификатор видов экономической деятельности</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-example-ru-core-organization-mednet.html"
+                     title="Organization/example-ru-core-organization-mednet">Example Organization - example-ru-core-organization-mednet</a>
+               </td>
             </tr>
          </tbody>
       </table>
@@ -258,7 +506,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="StructureDefinition-Encounter.html">next&gt;</a>
+                <a href="StructureDefinition-ru-core-organization.html">next&gt;</a>
 
               </td>
             </tr>
@@ -268,7 +516,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/MaximNikolaev">Maxim Nikolaev</a>.  Package hl7.fhir.uv.max-fhir-ru#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 17, 2022 17:13+0300">2022-06-17</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/MaximNikolaev">Maxim Nikolaev</a>.  Package hl7.fhir.uv.max-fhir-ru#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 30, 2022 12:52+0300">2022-06-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

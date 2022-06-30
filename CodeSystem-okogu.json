@@ -1,0 +1,44 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "okogu",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1320700<a name=\"okogu-1320700\"> </a></td><td>Министерство здравоохранения Российской Федерации</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okogu",
+  "version": "0.2.0",
+  "name": "Okogu",
+  "title": "Классификатор ОКОГУ",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Общероссийский классификатор органов государственной власти и управления",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "fragment",
+  "concept": [
+    {
+      "code": "1320700",
+      "display": "Министерство здравоохранения Российской Федерации"
+    }
+  ]
+}

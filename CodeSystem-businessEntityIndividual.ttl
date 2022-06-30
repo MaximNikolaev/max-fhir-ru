@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "businessEntityIndividual"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">businessEntity<a name=\"businessEntityIndividual-businessEntity\"> </a></td><td>Юридическое лицо</td><td>Юридическое лицо</td></tr><tr><td style=\"white-space:nowrap\">individual<a name=\"businessEntityIndividual-individual\"> </a></td><td>Физическое лицо</td><td>Физическое лицо</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Русский (Russian, ru)</b></td></tr><tr><td>businessEntity</td><td>Юридическое лицо</td></tr><tr><td>individual</td><td>Физическое лицо</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.name [ fhir:value "BusinessEntityIndividual"];
+  fhir:CodeSystem.title [ fhir:value "Юридическое / физическое лицо"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Maxim Nikolaev"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://github.com/MaximNikolaev" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Юридическое или физическое лицо (используется для организаций)"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividual";
+     fhir:link <https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividual>
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "businessEntity" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Юридическое лицо" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Юридическое лицо" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "ru" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Юридическое лицо" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "individual" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Физическое лицо" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Физическое лицо" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "ru" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Физическое лицо" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

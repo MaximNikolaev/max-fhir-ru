@@ -3,36 +3,330 @@
   "version": "0.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityKindFrmo",
+      "title": "Вид деятельности (ФРМО)",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityKindRzn",
+      "title": "Вид деятельности (РЗН)",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityType",
+      "title": "Тип деятельности",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual",
+      "title": "Юридическое / физическое лицо",
+      "types": [
+        "code",
+        "code"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration",
+      "title": "Данные о регистрации в ФСС",
+      "types": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okato",
+      "title": "ОКАТО",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okfs",
+      "title": "ОКФС",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okogu",
+      "title": "ОКОГУ",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okopf",
+      "title": "ОКОПФ",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okpo",
+      "title": "ОКПО",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-oktmo",
+      "title": "ОКТМО",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okved",
+      "title": "ОКВЭД",
+      "types": [
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration",
+      "title": "Данные о регистрации в ПФР",
+      "types": [
+        "string",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration",
+      "title": "Свидетельство о гос. регистрации",
+      "types": [
+        "string",
+        "date",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    }
+  ],
   "profiles": {
-    "Encounter": [
-      {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Encounter",
-        "title": "Случай обслуживания"
-      }
-    ],
-    "Observation": [
-      {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Observation",
-        "title": "Результат наблюдения"
-      }
-    ],
     "Organization": [
       {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Organization",
-        "title": "Организация"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Patient",
-        "title": "Пациент"
-      }
-    ],
-    "Practitioner": [
-      {
-        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition-Practitioner",
-        "title": "Врач"
+        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization",
+        "title": "Организация (профиль)"
       }
     ]
   },
@@ -52,10 +346,7 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
@@ -68,14 +359,49 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "ImplementationGuide",
-      "StructureDefinition.snapshot.element"
+      "ImplementationGuide"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-activityType": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okato": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okfs": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okogu": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okopf": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okpo": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-oktmo": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-okved": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration": [
+      "Organization"
+    ],
+    "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration": [
+      "Organization"
     ]
   }
 }

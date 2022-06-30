@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="okopf"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf defines many codes, of which the following are a subset:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1 00 00<a name="okopf-10000"> </a></td><td>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ КОММЕРЧЕСКИМИ КОРПОРАТИВНЫМИ ОРГАНИЗАЦИЯМИ</td></tr><tr><td style="white-space:nowrap">1 22 00<a name="okopf-12200"> </a></td><td>Акционерные общества</td></tr><tr><td style="white-space:nowrap">1 22 47<a name="okopf-12247"> </a></td><td>Публичные акционерные общества</td></tr><tr><td style="white-space:nowrap">1 22 67<a name="okopf-12267"> </a></td><td>Непубличные акционерные общества</td></tr><tr><td style="white-space:nowrap">1 23 00<a name="okopf-12300"> </a></td><td>Общества с ограниченной ответственностью</td></tr><tr><td style="white-space:nowrap">2 07 16<a name="okopf-20716"> </a></td><td>Товарищества собственников жилья</td></tr><tr><td style="white-space:nowrap">5 00 00<a name="okopf-50000"> </a></td><td>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ДЛЯ ДЕЯТЕЛЬНОСТИ ГРАЖДАН (ФИЗИЧЕСКИХ ЛИЦ)</td></tr><tr><td style="white-space:nowrap">5 01 00<a name="okopf-50100"> </a></td><td>Организационно-правовые формы для коммерческой деятельности граждан</td></tr><tr><td style="white-space:nowrap">5 01 01<a name="okopf-50101"> </a></td><td>Главы крестьянских (фермерских) хозяйств</td></tr><tr><td style="white-space:nowrap">5 01 02<a name="okopf-50102"> </a></td><td>Индивидуальные предприниматели</td></tr><tr><td style="white-space:nowrap">5 02 00<a name="okopf-50200"> </a></td><td>Организационно-правовые формы для деятельности граждан, не отнесенной к предпринимательству</td></tr><tr><td style="white-space:nowrap">5 02 01<a name="okopf-50201"> </a></td><td>Адвокаты, учредившие адвокатский кабинет</td></tr><tr><td style="white-space:nowrap">5 02 02<a name="okopf-50202"> </a></td><td>Нотариусы, занимающиеся частной практикой</td></tr><tr><td style="white-space:nowrap">7 00 00<a name="okopf-70000"> </a></td><td>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ НЕКОММЕРЧЕСКИМИ УНИТАРНЫМИ ОРГАНИЗАЦИЯМИ</td></tr><tr><td style="white-space:nowrap">7 04 00<a name="okopf-70400"> </a></td><td>Фонды</td></tr><tr><td style="white-space:nowrap">7 04 01<a name="okopf-70401"> </a></td><td>Благотворительные фонды</td></tr><tr><td style="white-space:nowrap">7 04 02<a name="okopf-70402"> </a></td><td>Негосударственные пенсионные фонды</td></tr><tr><td style="white-space:nowrap">7 04 03<a name="okopf-70403"> </a></td><td>Общественные фонды</td></tr><tr><td style="white-space:nowrap">7 04 04<a name="okopf-70404"> </a></td><td>Экологические фонды</td></tr><tr><td style="white-space:nowrap">7 14 00<a name="okopf-71400"> </a></td><td>Автономные некоммерческие организации</td></tr><tr><td style="white-space:nowrap">7 15 00<a name="okopf-71500"> </a></td><td>Религиозные организации</td></tr><tr><td style="white-space:nowrap">7 16 00<a name="okopf-71600"> </a></td><td>Публично-правовые компании</td></tr><tr><td style="white-space:nowrap">7 16 01<a name="okopf-71601"> </a></td><td>Государственные корпорации</td></tr><tr><td style="white-space:nowrap">7 16 02<a name="okopf-71602"> </a></td><td>Государственные компании</td></tr><tr><td style="white-space:nowrap">7 16 10<a name="okopf-71610"> </a></td><td>Отделения иностранных некоммерческих неправительственных организаций</td></tr><tr><td style="white-space:nowrap">7 50 00<a name="okopf-75000"> </a></td><td>Учреждения</td></tr><tr><td style="white-space:nowrap">7 51 00<a name="okopf-75100"> </a></td><td>Учреждения, созданные Российской Федерацией</td></tr><tr><td style="white-space:nowrap">7 51 01<a name="okopf-75101"> </a></td><td>Федеральные государственные автономные учреждения</td></tr><tr><td style="white-space:nowrap">7 51 03<a name="okopf-75103"> </a></td><td>Федеральные государственные бюджетные учреждения</td></tr><tr><td style="white-space:nowrap">7 51 04<a name="okopf-75104"> </a></td><td>Федеральные государственные казенные учреждения</td></tr><tr><td style="white-space:nowrap">7 52 00<a name="okopf-75200"> </a></td><td>Учреждения, созданные субъектом Российской Федерации</td></tr><tr><td style="white-space:nowrap">7 52 01<a name="okopf-75201"> </a></td><td>Государственные автономные учреждения субъектов Российской Федерации</td></tr><tr><td style="white-space:nowrap">7 52 03<a name="okopf-75203"> </a></td><td>Государственные бюджетные учреждения субъектов Российской Федерации</td></tr><tr><td style="white-space:nowrap">7 52 04<a name="okopf-75204"> </a></td><td>Государственные казенные учреждения субъектов Российской Федерации</td></tr><tr><td style="white-space:nowrap">7 53 00<a name="okopf-75300"> </a></td><td>Государственные академии наук</td></tr><tr><td style="white-space:nowrap">7 54 00<a name="okopf-75400"> </a></td><td>Учреждения, созданные муниципальным образованием (муниципальные учреждения)</td></tr><tr><td style="white-space:nowrap">7 54 01<a name="okopf-75401"> </a></td><td>Муниципальные автономные учреждения</td></tr><tr><td style="white-space:nowrap">7 54 03<a name="okopf-75403"> </a></td><td>Муниципальные бюджетные учреждения</td></tr><tr><td style="white-space:nowrap">7 54 04<a name="okopf-75404"> </a></td><td>Муниципальные казенные учреждения</td></tr><tr><td style="white-space:nowrap">7 55 00<a name="okopf-75500"> </a></td><td>Частные учреждения</td></tr><tr><td style="white-space:nowrap">7 55 02<a name="okopf-75502"> </a></td><td>Благотворительные учреждения</td></tr><tr><td style="white-space:nowrap">7 55 05<a name="okopf-75505"> </a></td><td>Общественные учреждения</td></tr></table></div>
+  </text>
+  <url value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf"/>
+  <version value="0.2.0"/>
+  <name value="Okopf"/>
+  <title value="Классификатор ОКОПФ"/>
+  <status value="draft"/>
+  <date value="2022-06-30T12:52:13+03:00"/>
+  <publisher value="Maxim Nikolaev"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/MaximNikolaev"/>
+    </telecom>
+  </contact>
+  <description value="Общероссийский классификатор организационно-правовых форм"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="fragment"/>
+  <concept>
+    <code value="1 00 00"/>
+    <display value="ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ КОММЕРЧЕСКИМИ КОРПОРАТИВНЫМИ ОРГАНИЗАЦИЯМИ"/>
+  </concept>
+  <concept>
+    <code value="1 22 00"/>
+    <display value="Акционерные общества"/>
+  </concept>
+  <concept>
+    <code value="1 22 47"/>
+    <display value="Публичные акционерные общества"/>
+  </concept>
+  <concept>
+    <code value="1 22 67"/>
+    <display value="Непубличные акционерные общества"/>
+  </concept>
+  <concept>
+    <code value="1 23 00"/>
+    <display value="Общества с ограниченной ответственностью"/>
+  </concept>
+  <concept>
+    <code value="2 07 16"/>
+    <display value="Товарищества собственников жилья"/>
+  </concept>
+  <concept>
+    <code value="5 00 00"/>
+    <display value="ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ДЛЯ ДЕЯТЕЛЬНОСТИ ГРАЖДАН (ФИЗИЧЕСКИХ ЛИЦ)"/>
+  </concept>
+  <concept>
+    <code value="5 01 00"/>
+    <display value="Организационно-правовые формы для коммерческой деятельности граждан"/>
+  </concept>
+  <concept>
+    <code value="5 01 01"/>
+    <display value="Главы крестьянских (фермерских) хозяйств"/>
+  </concept>
+  <concept>
+    <code value="5 01 02"/>
+    <display value="Индивидуальные предприниматели"/>
+  </concept>
+  <concept>
+    <code value="5 02 00"/>
+    <display value="Организационно-правовые формы для деятельности граждан, не отнесенной к предпринимательству"/>
+  </concept>
+  <concept>
+    <code value="5 02 01"/>
+    <display value="Адвокаты, учредившие адвокатский кабинет"/>
+  </concept>
+  <concept>
+    <code value="5 02 02"/>
+    <display value="Нотариусы, занимающиеся частной практикой"/>
+  </concept>
+  <concept>
+    <code value="7 00 00"/>
+    <display value="ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ НЕКОММЕРЧЕСКИМИ УНИТАРНЫМИ ОРГАНИЗАЦИЯМИ"/>
+  </concept>
+  <concept>
+    <code value="7 04 00"/>
+    <display value="Фонды"/>
+  </concept>
+  <concept>
+    <code value="7 04 01"/>
+    <display value="Благотворительные фонды"/>
+  </concept>
+  <concept>
+    <code value="7 04 02"/>
+    <display value="Негосударственные пенсионные фонды"/>
+  </concept>
+  <concept>
+    <code value="7 04 03"/>
+    <display value="Общественные фонды"/>
+  </concept>
+  <concept>
+    <code value="7 04 04"/>
+    <display value="Экологические фонды"/>
+  </concept>
+  <concept>
+    <code value="7 14 00"/>
+    <display value="Автономные некоммерческие организации"/>
+  </concept>
+  <concept>
+    <code value="7 15 00"/>
+    <display value="Религиозные организации"/>
+  </concept>
+  <concept>
+    <code value="7 16 00"/>
+    <display value="Публично-правовые компании"/>
+  </concept>
+  <concept>
+    <code value="7 16 01"/>
+    <display value="Государственные корпорации"/>
+  </concept>
+  <concept>
+    <code value="7 16 02"/>
+    <display value="Государственные компании"/>
+  </concept>
+  <concept>
+    <code value="7 16 10"/>
+    <display value="Отделения иностранных некоммерческих неправительственных организаций"/>
+  </concept>
+  <concept>
+    <code value="7 50 00"/>
+    <display value="Учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 51 00"/>
+    <display value="Учреждения, созданные Российской Федерацией"/>
+  </concept>
+  <concept>
+    <code value="7 51 01"/>
+    <display value="Федеральные государственные автономные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 51 03"/>
+    <display value="Федеральные государственные бюджетные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 51 04"/>
+    <display value="Федеральные государственные казенные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 52 00"/>
+    <display value="Учреждения, созданные субъектом Российской Федерации"/>
+  </concept>
+  <concept>
+    <code value="7 52 01"/>
+    <display value="Государственные автономные учреждения субъектов Российской Федерации"/>
+  </concept>
+  <concept>
+    <code value="7 52 03"/>
+    <display value="Государственные бюджетные учреждения субъектов Российской Федерации"/>
+  </concept>
+  <concept>
+    <code value="7 52 04"/>
+    <display value="Государственные казенные учреждения субъектов Российской Федерации"/>
+  </concept>
+  <concept>
+    <code value="7 53 00"/>
+    <display value="Государственные академии наук"/>
+  </concept>
+  <concept>
+    <code value="7 54 00"/>
+    <display value="Учреждения, созданные муниципальным образованием (муниципальные учреждения)"/>
+  </concept>
+  <concept>
+    <code value="7 54 01"/>
+    <display value="Муниципальные автономные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 54 03"/>
+    <display value="Муниципальные бюджетные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 54 04"/>
+    <display value="Муниципальные казенные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 55 00"/>
+    <display value="Частные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 55 02"/>
+    <display value="Благотворительные учреждения"/>
+  </concept>
+  <concept>
+    <code value="7 55 05"/>
+    <display value="Общественные учреждения"/>
+  </concept>
+</CodeSystem>

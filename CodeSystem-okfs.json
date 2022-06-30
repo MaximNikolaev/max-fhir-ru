@@ -1,0 +1,172 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "okfs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"okfs-10\"> </a></td><td>Российская собственность</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"okfs-11\"> </a></td><td>Государственная собственность</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"okfs-12\"> </a></td><td>Федеральная собственность</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"okfs-13\"> </a></td><td>Собственность субъектов Российской Федерации</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"okfs-14\"> </a></td><td>Муниципальная собственность</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"okfs-15\"> </a></td><td>Собственность общественных и религиозных организаций (объединений)</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"okfs-16\"> </a></td><td>Частная собственность</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"okfs-17\"> </a></td><td>Смешанная российская собственность</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"okfs-18\"> </a></td><td>Собственность российских граждан, постоянно проживающих за границей</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"okfs-19\"> </a></td><td>Собственность потребительской кооперации</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"okfs-20\"> </a></td><td>Иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"okfs-21\"> </a></td><td>Собственность международных организаций</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"okfs-22\"> </a></td><td>Собственность иностранных государств</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"okfs-23\"> </a></td><td>Собственность иностранных юридических лиц</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"okfs-24\"> </a></td><td>Собственность иностранных граждан и лиц без гражданства</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"okfs-27\"> </a></td><td>Смешанная иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"okfs-30\"> </a></td><td>Совместная российская и иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"okfs-31\"> </a></td><td>Совместная федеральная и иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"okfs-32\"> </a></td><td>Совместная собственность субъектов Российской Федерации и иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"okfs-33\"> </a></td><td>Совместная муниципальная и иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"okfs-34\"> </a></td><td>Совместная частная и иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"okfs-35\"> </a></td><td>Совместная собственность общественных и религиозных организаций (объединений) и иностранная собственность</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"okfs-40\"> </a></td><td>Смешанная российская собственность с долей государственной собственности</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"okfs-41\"> </a></td><td>Смешанная российская собственность с долей федеральной собственности</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"okfs-42\"> </a></td><td>Смешанная российская собственность с долей собственности субъектов Российской Федерации</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"okfs-43\"> </a></td><td>Смешанная российская собственность с долями федеральной собственности и собственности субъектов Российской Федерации</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"okfs-49\"> </a></td><td>Иная смешанная российская собственность</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"okfs-50\"> </a></td><td>Собственность благотворительных организаций</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"okfs-51\"> </a></td><td>Собственность политических общественных объединений</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"okfs-52\"> </a></td><td>Собственность профессиональных союзов</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"okfs-53\"> </a></td><td>Собственность общественных объединений</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"okfs-54\"> </a></td><td>Собственность религиозных объединений</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"okfs-61\"> </a></td><td>Собственность государственных корпораций</td></tr></table></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs",
+  "version": "0.2.0",
+  "name": "Okfs",
+  "title": "Классификатор ОКФС",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Общероссийский классификатор форм собственности",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "fragment",
+  "concept": [
+    {
+      "code": "10",
+      "display": "Российская собственность"
+    },
+    {
+      "code": "11",
+      "display": "Государственная собственность"
+    },
+    {
+      "code": "12",
+      "display": "Федеральная собственность"
+    },
+    {
+      "code": "13",
+      "display": "Собственность субъектов Российской Федерации"
+    },
+    {
+      "code": "14",
+      "display": "Муниципальная собственность"
+    },
+    {
+      "code": "15",
+      "display": "Собственность общественных и религиозных организаций (объединений)"
+    },
+    {
+      "code": "16",
+      "display": "Частная собственность"
+    },
+    {
+      "code": "17",
+      "display": "Смешанная российская собственность"
+    },
+    {
+      "code": "18",
+      "display": "Собственность российских граждан, постоянно проживающих за границей"
+    },
+    {
+      "code": "19",
+      "display": "Собственность потребительской кооперации"
+    },
+    {
+      "code": "20",
+      "display": "Иностранная собственность"
+    },
+    {
+      "code": "21",
+      "display": "Собственность международных организаций"
+    },
+    {
+      "code": "22",
+      "display": "Собственность иностранных государств"
+    },
+    {
+      "code": "23",
+      "display": "Собственность иностранных юридических лиц"
+    },
+    {
+      "code": "24",
+      "display": "Собственность иностранных граждан и лиц без гражданства"
+    },
+    {
+      "code": "27",
+      "display": "Смешанная иностранная собственность"
+    },
+    {
+      "code": "30",
+      "display": "Совместная российская и иностранная собственность"
+    },
+    {
+      "code": "31",
+      "display": "Совместная федеральная и иностранная собственность"
+    },
+    {
+      "code": "32",
+      "display": "Совместная собственность субъектов Российской Федерации и иностранная собственность"
+    },
+    {
+      "code": "33",
+      "display": "Совместная муниципальная и иностранная собственность"
+    },
+    {
+      "code": "34",
+      "display": "Совместная частная и иностранная собственность"
+    },
+    {
+      "code": "35",
+      "display": "Совместная собственность общественных и религиозных организаций (объединений) и иностранная собственность"
+    },
+    {
+      "code": "40",
+      "display": "Смешанная российская собственность с долей государственной собственности"
+    },
+    {
+      "code": "41",
+      "display": "Смешанная российская собственность с долей федеральной собственности"
+    },
+    {
+      "code": "42",
+      "display": "Смешанная российская собственность с долей собственности субъектов Российской Федерации"
+    },
+    {
+      "code": "43",
+      "display": "Смешанная российская собственность с долями федеральной собственности и собственности субъектов Российской Федерации"
+    },
+    {
+      "code": "49",
+      "display": "Иная смешанная российская собственность"
+    },
+    {
+      "code": "50",
+      "display": "Собственность благотворительных организаций"
+    },
+    {
+      "code": "51",
+      "display": "Собственность политических общественных объединений"
+    },
+    {
+      "code": "52",
+      "display": "Собственность профессиональных союзов"
+    },
+    {
+      "code": "53",
+      "display": "Собственность общественных объединений"
+    },
+    {
+      "code": "54",
+      "display": "Собственность религиозных объединений"
+    },
+    {
+      "code": "61",
+      "display": "Собственность государственных корпораций"
+    }
+  ]
+}

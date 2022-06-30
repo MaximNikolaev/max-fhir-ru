@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "activityType"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">lo<a name=\"activityType-lo\"> </a></td><td>ЛО</td><td>Лицензируемая организация, то есть новая организация, которая собирает данные для получения лицензии (ещё не МО, ФО и ОО)</td></tr><tr><td style=\"white-space:nowrap\">mo<a name=\"activityType-mo\"> </a></td><td>МО</td><td>Медицинская организация</td></tr><tr><td style=\"white-space:nowrap\">fo<a name=\"activityType-fo\"> </a></td><td>ФО</td><td>Фармацевтическая организация</td></tr><tr><td style=\"white-space:nowrap\">oo<a name=\"activityType-oo\"> </a></td><td>ОО</td><td>Образовательная организация</td></tr><tr><td style=\"white-space:nowrap\">ho<a name=\"activityType-ho\"> </a></td><td>ОЗ</td><td>Организатор здравоохранения</td></tr><tr><td style=\"white-space:nowrap\">io<a name=\"activityType-io\"> </a></td><td>СО</td><td>Страховая организация</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.name [ fhir:value "ActivityType"];
+  fhir:CodeSystem.title [ fhir:value "Тип деятельности организации"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Maxim Nikolaev"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://github.com/MaximNikolaev" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Классификатор типов деятельности организации"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "lo" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ЛО" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Лицензируемая организация, то есть новая организация, которая собирает данные для получения лицензии (ещё не МО, ФО и ОО)" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "mo" ];
+     fhir:CodeSystem.concept.display [ fhir:value "МО" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Медицинская организация" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "fo" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ФО" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Фармацевтическая организация" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "oo" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ОО" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Образовательная организация" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "ho" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ОЗ" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Организатор здравоохранения" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "io" ];
+     fhir:CodeSystem.concept.display [ fhir:value "СО" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Страховая организация" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/activityType.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

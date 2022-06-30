@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ru-core-businessEntityIndividualVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-businessEntityIndividual.html"><code>https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual</code></a></li></ul></div>
+  </text>
+  <url value="https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividualVS"/>
+  <version value="0.2.0"/>
+  <name value="RuCoreBusinessEntityIndividualVS"/>
+  <title value="Юридическое или физическое лицо"/>
+  <status value="draft"/>
+  <date value="2022-06-30T12:52:13+03:00"/>
+  <publisher value="Maxim Nikolaev"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/MaximNikolaev"/>
+    </telecom>
+  </contact>
+  <description value="Определяет, является ли ресурс юридическим или физическом лицом"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual"/>
+    </include>
+  </compose>
+</ValueSet>

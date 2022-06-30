@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ru-core-businessEntityIndividualVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-businessEntityIndividual.html\"><code>https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual</code></a></li></ul></div>"
+  },
+  "url": "https://maximnikolaev.github.io/max-fhir-ru/ValueSet/ru-core-businessEntityIndividualVS",
+  "version": "0.2.0",
+  "name": "RuCoreBusinessEntityIndividualVS",
+  "title": "Юридическое или физическое лицо",
+  "status": "draft",
+  "date": "2022-06-30T12:52:13+03:00",
+  "publisher": "Maxim Nikolaev",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/MaximNikolaev"
+        }
+      ]
+    }
+  ],
+  "description": "Определяет, является ли ресурс юридическим или физическом лицом",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/businessEntityIndividual"
+      }
+    ]
+  }
+}
