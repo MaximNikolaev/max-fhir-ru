@@ -1,11 +1,12 @@
 ﻿MaxFhirRu : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 1
+err = 0, warn = 0, info = 2
 IG Publisher Version: 1.1.122
-Generated Thu Jun 30 12:52:45 MSK 2022. FHIR version 4.0.1 for hl7.fhir.uv.max-fhir-ru#0.2.0 (canonical = https://maximnikolaev.github.io/max-fhir-ru)
+Generated Fri Jul 01 21:06:44 MSK 2022. FHIR version 4.0.1 for hl7.fhir.uv.max-fhir-ru#0.2.0 (canonical = https://maximnikolaev.github.io/max-fhir-ru)
  Build Errors : 0 / 0 / 0
  D:\github\max-fhir-ru-dev\input\examples\ru-core-organization-mednet : 0 / 0 / 2
+ D:\github\max-fhir-ru-dev\input\examples\ru-core-organization-mednetv2 : 0 / 0 / 2
  D:\github\max-fhir-ru-dev\input\ig : 0 / 0 / 1
  D:\github\max-fhir-ru-dev\input\resources\CodeSystem-activityKindFrmo : 0 / 0 / 1
  D:\github\max-fhir-ru-dev\input\resources\CodeSystem-activityKindRzn : 0 / 0 / 1
@@ -30,6 +31,7 @@ Generated Thu Jun 30 12:52:45 MSK 2022. FHIR version 4.0.1 for hl7.fhir.uv.max-f
  D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-oktmo : 0 / 0 / 1
  D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-okved : 0 / 0 / 1
  D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-organization : 0 / 0 / 1
+ D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-organizationv2 : 0 / 0 / 1
  D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-pfrRegistration : 0 / 0 / 1
  D:\github\max-fhir-ru-dev\input\resources\StructureDefinition-ru-core-stateRegistration : 0 / 0 / 1
  D:\github\max-fhir-ru-dev\input\resources\ValueSet-ru-core-businessEntityIndividual : 0 / 0 / 1
@@ -37,6 +39,8 @@ Generated Thu Jun 30 12:52:45 MSK 2022. FHIR version 4.0.1 for hl7.fhir.uv.max-f
 == n/a ==
 == input\examples\ru-core-organization-mednet.xml ==
 INFORMATION: Organization/example-ru-core-organization-mednet: Organization.identifier[1]: This element does not match any known slice defined in the profile https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization
+== input\examples\ru-core-organization-mednetv2.xml ==
+INFORMATION: Organization/example-ru-core-organization-mednetv2: Organization.identifier[1]: This element does not match any known slice defined in the profile https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2
 == input\ig.xml ==
 == input\resources\CodeSystem-activityKindFrmo.xml ==
 == input\resources\CodeSystem-activityKindRzn.xml ==
@@ -61,6 +65,7 @@ INFORMATION: Organization/example-ru-core-organization-mednet: Organization.iden
 == input\resources\StructureDefinition-ru-core-oktmo.xml ==
 == input\resources\StructureDefinition-ru-core-okved.xml ==
 == input\resources\StructureDefinition-ru-core-organization.xml ==
+== input\resources\StructureDefinition-ru-core-organizationv2.xml ==
 == input\resources\StructureDefinition-ru-core-pfrRegistration.xml ==
 == input\resources\StructureDefinition-ru-core-stateRegistration.xml ==
 == input\resources\ValueSet-ru-core-businessEntityIndividual.xml ==

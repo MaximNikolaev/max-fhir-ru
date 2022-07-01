@@ -18,7 +18,7 @@
   <title value="unofficial FHIR ru-core implementation guide for Russian Federation"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-06-30T12:52:13+03:00"/>
+  <date value="2022-07-01T21:06:10+03:00"/>
   <publisher value="Maxim Nikolaev"/>
   <contact>
     <telecom>
@@ -230,6 +230,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/example-ru-core-organization-mednetv2"/>
+      </reference>
+      <name value="Example Organization - example-ru-core-organization-mednetv2"/>
+      <exampleCanonical value="https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -426,7 +436,7 @@
         <reference value="StructureDefinition/ru-core-okpo"/>
       </reference>
       <name value="ОКПО"/>
-      <description value="Код по ОКПО Общероссийский классификатор предприятий и организаций"/>
+      <description value="ОКПО Общероссийский классификатор предприятий и организаций"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -457,6 +467,16 @@
       </reference>
       <name value="Организация (профиль)"/>
       <description value="Определяет базовый профиль Организация"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ru-core-organizationv2"/>
+      </reference>
+      <name value="Организация (профиль) v2"/>
+      <description value="Определяет базовый профиль Организация. Коды по классификаторам перенесены в type."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

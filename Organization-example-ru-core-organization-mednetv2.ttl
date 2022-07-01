@@ -1,0 +1,134 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/Organization/example-ru-core-organization-mednetv2> a fhir:Organization;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-ru-core-organization-mednetv2"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2";
+       fhir:index 0;
+       fhir:link <https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-ru-core-organization-mednetv2\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ru-core-organizationv2.html\">Организация (профиль) v2</a></p></div><p><b>Юридическое / физическое лицо</b>: businessEntity</p><blockquote><p><b>Свидетельство о гос. регистрации</b></p><p><b>value</b>: 00 000000000</p><p><b>value</b>: 2002-09-30</p></blockquote><blockquote><p><b>Данные о регистрации в ПФР</b></p><p><b>value</b>: 087310042923</p><p><b>value</b>: Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы</p></blockquote><blockquote><p><b>Данные о регистрации в ФСС</b></p><p><b>value</b>: 770900509177031</p><p><b>value</b>: Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации</p></blockquote><p><b>identifier</b>: id: 7715217798, id: 1027739277235, id: 18987596, id: 1320700</p><p><b>active</b>: true</p><p><b>type</b>: Научные исследования и разработки в области естественных и технических наук прочие <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okved.html\">Классификатор ОКВЭД</a>#72.19)</span>, Федеральная собственность <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okfs.html\">Классификатор ОКФС</a>#12)</span>, Федеральные государственные бюджетные учреждения <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okopf.html\">Классификатор ОКОПФ</a>#7 51 03)</span>, Бутырский <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okato.html\">Классификатор ОКАТО</a>#45 280 561)</span>, муниципальный округ Бутырский <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-oktmo.html\">Классификатор ОКТМО</a>#45 353 000)</span></p><p><b>name</b>: ФГБУ ЦНИИОИЗ Минздрава России</p><p><b>alias</b>: Федеральное государственное бюджетное учреждение \"Центральный научно-исследовательский институт                  организации и информатизации здравоохранения\" Министерства здравоохранения Российской Федерации</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual" ];
+     fhir:Extension.valueCode [ fhir:value "businessEntity" ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration" ];
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "regNumber" ];
+       fhir:Extension.valueString [ fhir:value "00 000000000" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "regDate" ];
+       fhir:Extension.valueDate [ fhir:value "2002-09-30"^^xsd:date ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration" ];
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "regNumber" ];
+       fhir:Extension.valueString [ fhir:value "087310042923" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "regName" ];
+       fhir:Extension.valueString [ fhir:value "Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration" ];
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "regNumber" ];
+       fhir:Extension.valueString [ fhir:value "770900509177031" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "regName" ];
+       fhir:Extension.valueString [ fhir:value "Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации" ]
+     ]
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/inn" ];
+     fhir:Identifier.value [ fhir:value "7715217798" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/orgn" ];
+     fhir:Identifier.value [ fhir:value "1027739277235" ]
+  ], [
+     fhir:index 2;
+     fhir:Identifier.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/okpo" ];
+     fhir:Identifier.value [ fhir:value "18987596" ]
+  ], [
+     fhir:index 3;
+     fhir:Identifier.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/okogu" ];
+     fhir:Identifier.value [ fhir:value "1320700" ]
+  ];
+  fhir:Organization.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Organization.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved" ];
+       fhir:Coding.code [ fhir:value "72.19" ];
+       fhir:Coding.display [ fhir:value "Научные исследования и разработки в области естественных и технических наук прочие" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs" ];
+       fhir:Coding.code [ fhir:value "12" ];
+       fhir:Coding.display [ fhir:value "Федеральная собственность" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf" ];
+       fhir:Coding.code [ fhir:value "7 51 03" ];
+       fhir:Coding.display [ fhir:value "Федеральные государственные бюджетные учреждения" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato" ];
+       fhir:Coding.code [ fhir:value "45 280 561" ];
+       fhir:Coding.display [ fhir:value "Бутырский" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo" ];
+       fhir:Coding.code [ fhir:value "45 353 000" ];
+       fhir:Coding.display [ fhir:value "муниципальный округ Бутырский" ]
+     ]
+  ];
+  fhir:Organization.name [ fhir:value "ФГБУ ЦНИИОИЗ Минздрава России"];
+  fhir:Organization.alias [
+     fhir:value "Федеральное государственное бюджетное учреждение \"Центральный научно-исследовательский институт                  организации и информатизации здравоохранения\" Министерства здравоохранения Российской Федерации";
+     fhir:index 0
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://maximnikolaev.github.io/max-fhir-ru/Organization/example-ru-core-organization-mednetv2.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

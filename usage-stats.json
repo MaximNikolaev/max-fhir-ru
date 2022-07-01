@@ -327,6 +327,10 @@
       {
         "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organization",
         "title": "Организация (профиль)"
+      },
+      {
+        "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2",
+        "title": "Организация (профиль) v2"
       }
     ]
   },

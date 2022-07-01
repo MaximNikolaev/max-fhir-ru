@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="88e9ab12-5525-4785-b3ca-399e960d6f88"/>
+  <id value="0aed2fa1-bfec-452f-ba1a-0ce0360b723d"/>
   <meta>
-    <lastUpdated value="2022-06-30T12:52:13.163+03:00"/>
+    <lastUpdated value="2022-07-01T21:06:10.931+03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -59,7 +59,7 @@
         <name value="RuCoreBusinessEntityIndividualVS"/>
         <title value="Юридическое или физическое лицо"/>
         <status value="draft"/>
-        <date value="2022-06-30T12:52:13+03:00"/>
+        <date value="2022-07-01T21:06:10+03:00"/>
         <publisher value="Maxim Nikolaev"/>
         <contact>
           <telecom>
@@ -75,8 +75,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6e3fea06-e88d-4e33-816d-69aa1b8451b5"/>
-          <timestamp value="2022-06-30T12:52:28+03:00"/>
+          <identifier value="urn:uuid:2b6544fd-6bed-4631-8e95-d9a600acdbff"/>
+          <timestamp value="2022-07-01T21:06:28+03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

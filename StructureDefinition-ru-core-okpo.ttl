@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "RuCoreOKPOExtension"];
   fhir:StructureDefinition.title [ fhir:value "ОКПО"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-07-01T21:06:10+03:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Maxim Nikolaev"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -27,7 +27,7 @@
        fhir:ContactPoint.value [ fhir:value "https://github.com/MaximNikolaev" ]
      ]
   ];
-  fhir:StructureDefinition.description [ fhir:value "Код по ОКПО Общероссийский классификатор предприятий и организаций"];
+  fhir:StructureDefinition.description [ fhir:value "ОКПО Общероссийский классификатор предприятий и организаций"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "RuCoreBusinessEntityIndividualVS"];
   fhir:ValueSet.title [ fhir:value "Юридическое или физическое лицо"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-07-01T21:06:10+03:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Maxim Nikolaev"];
   fhir:ValueSet.contact [
      fhir:index 0;

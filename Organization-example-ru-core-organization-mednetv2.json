@@ -1,0 +1,128 @@
+{
+  "resourceType": "Organization",
+  "id": "example-ru-core-organization-mednetv2",
+  "meta": {
+    "profile": [
+      "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-ru-core-organization-mednetv2\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ru-core-organizationv2.html\">Организация (профиль) v2</a></p></div><p><b>Юридическое / физическое лицо</b>: businessEntity</p><blockquote><p><b>Свидетельство о гос. регистрации</b></p><p><b>value</b>: 00 000000000</p><p><b>value</b>: 2002-09-30</p></blockquote><blockquote><p><b>Данные о регистрации в ПФР</b></p><p><b>value</b>: 087310042923</p><p><b>value</b>: Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы</p></blockquote><blockquote><p><b>Данные о регистрации в ФСС</b></p><p><b>value</b>: 770900509177031</p><p><b>value</b>: Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации</p></blockquote><p><b>identifier</b>: id: 7715217798, id: 1027739277235, id: 18987596, id: 1320700</p><p><b>active</b>: true</p><p><b>type</b>: Научные исследования и разработки в области естественных и технических наук прочие <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okved.html\">Классификатор ОКВЭД</a>#72.19)</span>, Федеральная собственность <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okfs.html\">Классификатор ОКФС</a>#12)</span>, Федеральные государственные бюджетные учреждения <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okopf.html\">Классификатор ОКОПФ</a>#7 51 03)</span>, Бутырский <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-okato.html\">Классификатор ОКАТО</a>#45 280 561)</span>, муниципальный округ Бутырский <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-oktmo.html\">Классификатор ОКТМО</a>#45 353 000)</span></p><p><b>name</b>: ФГБУ ЦНИИОИЗ Минздрава России</p><p><b>alias</b>: Федеральное государственное бюджетное учреждение \"Центральный научно-исследовательский институт                  организации и информатизации здравоохранения\" Министерства здравоохранения Российской Федерации</p></div>"
+  },
+  "extension": [
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-businessEntityIndividual",
+      "valueCode": "businessEntity"
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-stateRegistration",
+      "extension": [
+        {
+          "url": "regNumber",
+          "valueString": "00 000000000"
+        },
+        {
+          "url": "regDate",
+          "valueDate": "2002-09-30"
+        }
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration",
+      "extension": [
+        {
+          "url": "regNumber",
+          "valueString": "087310042923"
+        },
+        {
+          "url": "regName",
+          "valueString": "Государственное учреждение - Главное Управление Пенсионного фонда РФ №6 по г. Москве и Московской области муниципальный район Бутырский г.Москвы"
+        }
+      ]
+    },
+    {
+      "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-fssRegistration",
+      "extension": [
+        {
+          "url": "regNumber",
+          "valueString": "770900509177031"
+        },
+        {
+          "url": "regName",
+          "valueString": "Филиал №3 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/inn",
+      "value": "7715217798"
+    },
+    {
+      "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/orgn",
+      "value": "1027739277235"
+    },
+    {
+      "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/okpo",
+      "value": "18987596"
+    },
+    {
+      "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystems/ru-core-identifiers/okogu",
+      "value": "1320700"
+    }
+  ],
+  "active": true,
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okved",
+          "code": "72.19",
+          "display": "Научные исследования и разработки в области естественных и технических наук прочие"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okfs",
+          "code": "12",
+          "display": "Федеральная собственность"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okopf",
+          "code": "7 51 03",
+          "display": "Федеральные государственные бюджетные учреждения"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/okato",
+          "code": "45 280 561",
+          "display": "Бутырский"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "https://maximnikolaev.github.io/max-fhir-ru/CodeSystem/oktmo",
+          "code": "45 353 000",
+          "display": "муниципальный округ Бутырский"
+        }
+      ]
+    }
+  ],
+  "name": "ФГБУ ЦНИИОИЗ Минздрава России",
+  "alias": [
+    "Федеральное государственное бюджетное учреждение \"Центральный научно-исследовательский институт                  организации и информатизации здравоохранения\" Министерства здравоохранения Российской Федерации"
+  ]
+}

@@ -21,7 +21,7 @@
   "title": "unofficial FHIR ru-core implementation guide for Russian Federation",
   "status": "draft",
   "experimental": false,
-  "date": "2022-06-30T12:52:13+03:00",
+  "date": "2022-07-01T21:06:10+03:00",
   "publisher": "Maxim Nikolaev",
   "contact": [
     {
@@ -364,6 +364,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/example-ru-core-organization-mednetv2"
+        },
+        "name": "Example Organization - example-ru-core-organization-mednetv2",
+        "exampleCanonical": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -618,7 +631,7 @@
           "reference": "StructureDefinition/ru-core-okpo"
         },
         "name": "ОКПО",
-        "description": "Код по ОКПО Общероссийский классификатор предприятий и организаций"
+        "description": "ОКПО Общероссийский классификатор предприятий и организаций"
       },
       {
         "extension": [
@@ -658,6 +671,19 @@
         },
         "name": "Организация (профиль)",
         "description": "Определяет базовый профиль Организация"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ru-core-organizationv2"
+        },
+        "name": "Организация (профиль) v2",
+        "description": "Определяет базовый профиль Организация. Коды по классификаторам перенесены в type."
       },
       {
         "extension": [

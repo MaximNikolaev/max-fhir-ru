@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "88e9ab12-5525-4785-b3ca-399e960d6f88",
+  "id" : "0aed2fa1-bfec-452f-ba1a-0ce0360b723d",
   "meta" : {
-    "lastUpdated" : "2022-06-30T12:52:13.163+03:00"
+    "lastUpdated" : "2022-07-01T21:06:10.931+03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "RuCoreBusinessEntityIndividualVS",
       "title" : "Юридическое или физическое лицо",
       "status" : "draft",
-      "date" : "2022-06-30T12:52:13+03:00",
+      "date" : "2022-07-01T21:06:10+03:00",
       "publisher" : "Maxim Nikolaev",
       "contact" : [{
         "telecom" : [{
@@ -35,8 +35,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6e3fea06-e88d-4e33-816d-69aa1b8451b5",
-        "timestamp" : "2022-06-30T12:52:28+03:00",
+        "identifier" : "urn:uuid:2b6544fd-6bed-4631-8e95-d9a600acdbff",
+        "timestamp" : "2022-07-01T21:06:28+03:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",

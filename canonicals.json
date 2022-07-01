@@ -168,6 +168,13 @@
     "name": "RuCoreOrganizationProfile"
   },
   {
+    "id": "ru-core-organizationv2",
+    "type": "StructureDefinition",
+    "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-organizationv2",
+    "version": "0.2.0",
+    "name": "RuCoreOrganizationv2Profile"
+  },
+  {
     "id": "ru-core-pfrRegistration",
     "type": "StructureDefinition",
     "url": "https://maximnikolaev.github.io/max-fhir-ru/StructureDefinition/ru-core-pfrRegistration",

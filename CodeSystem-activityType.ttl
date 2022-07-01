@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "ActivityType"];
   fhir:CodeSystem.title [ fhir:value "Тип деятельности организации"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-06-30T12:52:13+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-07-01T21:06:10+03:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Maxim Nikolaev"];
   fhir:CodeSystem.contact [
      fhir:index 0;
